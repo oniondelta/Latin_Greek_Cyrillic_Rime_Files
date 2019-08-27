@@ -1,1 +1,1 @@
-# Latin-greek-cyrillic-rime
+# latin-greek-cyrillic-rime
