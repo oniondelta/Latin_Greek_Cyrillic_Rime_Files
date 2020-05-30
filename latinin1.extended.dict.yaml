@@ -11,14 +11,10 @@ use_preset_vocabulary: false
 #min_phrase_weight: 100
 import_tables:
   - latinin1
-#  - phrases.en_l_u_space
   - phrases.en_o_w
   - phrases.la_py_w
   - phrases.en_l_w
   - phrases.en_u_w
-#  - bo_mixin_la_seg
-#  - phrases.la_py_seg
 ...
 ##### 以下一個為空格轉寫，使掛載語言能空格後繼續輸入！！！ #####
  	|
-# 	X
