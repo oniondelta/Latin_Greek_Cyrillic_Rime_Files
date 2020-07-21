@@ -675,6 +675,13 @@ Z	;;z
 ⱻ	;;eq
 ⱽ	;;vh
 #Latin Extended-D大寫
+Ᵹ	;;df
+##
+#Ᵹ	;;dk
+##
+Ᵹ	;;zfo
+##
+Ᵹ	;;zfho
 Ꭓ	;;xi
 ꜰ	;;fi
 ꜱ	;;si
@@ -779,6 +786,9 @@ Z	;;z
 Ꝿ	;;dfq
 ##
 ##Ꝿ	##'dq
+Ꝿ	;;zfoq
+##
+Ꝿ	;;zfqo
 Ꞁ	;;lq
 ##
 Ꞁ	;;gk
@@ -1610,7 +1620,7 @@ $	;sy
 #Latin Extended-B其他_連音音標（沒有大小寫的分別）20191004修改四個為大寫
 ƍ	;dq
 ##
-ƍ	;dfk
+#ƍ	;dfk
 ƛ	;lx
 ƪ	;if
 ##
@@ -2170,12 +2180,12 @@ $	;sy
 ##
 ꝺ	;df
 ꝼ	;rh
-Ᵹ	;df
-##
-Ᵹ	;dk
 ꝿ	;dfq
 ##
 ##ꝿ	##dq
+ꝿ	;zfoq
+##
+ꝿ	;zfqo
 ꞁ	;lq
 ##
 ꞁ	;lk
@@ -2222,6 +2232,13 @@ $	;sy
 ꟼ	;qi
 ꟽ	;mk
 #Latin Extended-D大寫
+Ᵹ	;df
+##
+#Ᵹ	;dk
+##
+Ᵹ	;zfo
+##
+Ᵹ	;zfho
 Ꭓ	;xi
 ꜰ	;fi
 ꜱ	;si
@@ -2326,6 +2343,10 @@ $	;sy
 Ꝿ	;dfq
 ##
 ##Ꝿ	##dq
+##
+Ꝿ	;zfoq
+##
+Ꝿ	;zfqo
 Ꞁ	;lq
 ##
 Ꞁ	;gk
@@ -3266,7 +3287,11 @@ $	;sy
 ᵸ	;hh
 ᵹ	;df
 ##
-ᵹ	;dk
+#ᵹ	;dk
+##
+ᵹ	;zfo
+##
+ᵹ	;zfho
 ᵺ	;thx
 #以下一個為大寫
 ᵻ	;it
