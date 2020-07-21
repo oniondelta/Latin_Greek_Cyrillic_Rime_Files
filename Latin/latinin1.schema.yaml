@@ -2,9 +2,9 @@
 # encoding: utf-8
 # 《拉丁字母設定頁》
 schema:
-  schema_id: latinin1 # 注意此ID與文件名裏 .schema.yaml 之前的部分相同
+  schema_id: latinin1
   name: ❃拉丁 in 1❃
-  version: "201912"
+  version: "202007"
   author:
     - 『洋蔥』
   description: |
@@ -52,7 +52,7 @@ back_mark:
   option_name: back_mark
   show_in_comment: true
   tags: [ abc ]
-  tips: char
+  tips: char #all
   comment_format:
     - xform/^/  /
     - xform/@/ /
@@ -109,10 +109,10 @@ punctuator:
     '<' : { commit: "<" }
     '>' : { commit: ">" }
     '?' : { commit: "?" }
-    '/' : [ '/' ]
+    '/' : [ '/' ] #{ commit: "/" }
     ':' : { commit: ":" }
     ';' : [ ';' ]
-    "'" : { commit: "'" }
+    "'" : { commit: "'" } #[ "'" ]
     '"' : { commit: "\"" }
     '\\' : { commit: "\\" }
     '|' : { commit: "|" }
@@ -147,8 +147,10 @@ key_binder:
     - {accept: Left, send: Page_Up, when: paging}
     - {accept: Right, send: Page_Down, when: paging}
 ######################
-    - {accept: Tab, send: Shift+Left, when: paging}
-    - {accept: Shift+space, send: Page_Down, when: has_menu}
+    - {accept: Tab, send: Shift+Left, when: paging} #於選單列選字時，回復到輸入列（避免有時回復不了，故增加）。
+    - {accept: Shift+space, send: Page_Down, when: has_menu} #選字時可用「Shift」+「空白鍵」翻頁。
+    - {accept: Shift+Tab, send: Page_Up, when: paging} #選字時可用「Shift」+「tab」翻頁。
+######################
     - {accept: Return, send: space, when: has_menu} #return,enter直出
 #    - {accept: space, send: space, when: has_menu} # 非空碼時，空白還是空白
 #    - {accept: space, send: Escape, when: composing} # 空碼時，按空格清除
