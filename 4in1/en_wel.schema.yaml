@@ -4,7 +4,7 @@
 schema:
   schema_id: en_wel
   name: ✪西歐字母-洋蔥版✪
-  version: "201908" # 版本說明，這是文字類型而非整數或小數，如 "1.2.3"
+  version: "201908"
   author:
     - 『洋蔥』
   description: |
@@ -15,7 +15,7 @@ schema:
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 西歐, 純英 ] 
+    states: [ 西歐, 純英 ]
   - name: full_shape
     states: [ 半形, 全形 ]
   - name: back_mark
@@ -24,33 +24,32 @@ switches:
 
 engine:
   processors:
-    - ascii_composer #  處理西文模式及中西文切換
+    - ascii_composer
     - recognizer
-    - key_binder #  在特定條件下將按鍵綁定到其他按鍵，如重定義逗號、句號爲候選翻頁鍵
-    - speller #  拼寫，字符按鍵，編輯輸入碼,默認只接受小寫拉丁字母作爲輸入碼
+    - key_binder
+    - speller
     - punctuator
-    - selector #  選字，處理數字選字鍵、上、下候選定位、換頁鍵
-    - navigator #  輸入欄內的 光標移動鍵
-    - express_editor # 編輯器，啟用：(空格鍵：輸入中文)(enter鍵：輸入英文)/不啟用：(空格鍵：輸入中文)(enter鍵：輸入中文)。回退鍵 等
+    - selector
+    - navigator
+    - express_editor
 #    - fluency_editor
-  segmentors: # 二、這批組件識別不同內容類型，將輸入碼分段
-    - ascii_segmentor # ※ 標識_西文段落
+  segmentors:
+    - ascii_segmentor
     - matcher
-    - abc_segmentor # ※ 標識_常規的文字段落 #一定要放在「affix_segmentor」前
-#    - affix_segmentor@emo_lookup
+    - abc_segmentor
     - punct_segmentor
-    - fallback_segmentor # ※ 標識_其他未標識段落
+    - fallback_segmentor
   filters:
     - simplifier@back_mark
     - uniquifier
-  translators: # 三、這批組件翻譯特定類型的編碼段爲一組候選文字
+  translators:
     - punct_translator
     - script_translator
 #    - table_translator
 
-menu: #菜單選項
-  alternative_select_keys: "0123456789" #重碼選擇鍵，如沒有寫-預設 ctrl+123456789
-  page_size: 10 #選單 每頁 顯示 個數
+menu:
+  alternative_select_keys: "0123456789"
+  page_size: 10
 
 back_mark:
   opencc_config: back_mark.json
@@ -63,26 +62,15 @@ back_mark:
     - xform/@/ /
 
 speller:
-  alphabet: "abcdefghijklmnopqrstuvwxyz';[]" #"abcdefghijklmnopqrstuvwxyz[];,'./-="
+  alphabet: "abcdefghijklmnopqrstuvwxyz';[]"
   initials: "';[]"
-#  delimiter: "_" #上屛時的音節(字母)間分隔號
-##  max_code_length: 7 #形碼最大碼長，超過則頂字上屛〔僅table_translator有效〕
-##  auto_select: true #自動上屛
-##  auto_clear: max_length #auto # manual # max_length #空碼清屏
-##  auto_select_unique_candidate: true
-#  use_space: true 
 
 translator:
   dictionary: en_wel
-  enable_user_dict: true #是否開啓用戶詞典〔用戶詞典記錄動態字詞頻、用戶詞〕是true否false(開啟後候選字的順序會變動)
-  enable_sentence: false #是否開啓自動造句，是true否false (關閉碼表輸入法連打)(自動造詞時有太極圖)〔?僅table_translator有效?〕
-  enable_completion: false #〔僅table_translator有效〕默認開啓逐鍵提示。若要只出精確匹配輸入碼的候選字，可關閉這一選項。關閉用戶詞典和字頻調整。提前顯示尚未輸入完整碼的字
-#  enable_encoder: false #〔僅table_translator有效?〕是否開啓自動造詞，是true否false
-#  enable_charset_filter: false #〔僅table_translator有效〕是否開啓字符集過濾，是true否false
-#  encode_commit_history: false #〔僅table_translator有效〕是否對已上屛詞自動成詞，是true否false
-#  max_phrase_length: 4 #3 #〔僅table_translator有效〕最大 自動 成詞 詞長
-#  spelling_hints: 10
-  preedit_format: #menu 輸入 字碼 顯示
+  enable_user_dict: true
+  enable_sentence: false
+  enable_completion: false
+  preedit_format:
     - "xlit|[];'|ABCD|"
     - xform/DC/《拉丁-組合變音標記》/
     - xform/DB/《西里爾-組合變音標記》/
@@ -95,33 +83,24 @@ translator:
     - xform/DD/《全形-大寫》/
     - xform/D/《全形》/
     - "xlit|abcdefghijklmnopqrstuvwxyz|ABCDEFGHIJKLMNOPQRSTUVWXYZ|"
-#  comment_format: #menu 提示 字碼 顯示
-#    - xform/'([a-z])/;$1/
-#    - xform/'//
-#    - "xlit|abcdefghijklmnopqrstuvwxyz|ABCDEFGHIJKLMNOPQRSTUVWXYZ|"
 
 punctuator:
-#  import_preset: default #不要開啟會有問題
-#  import_preset: symbols_latin
   half_shape:
     "'": [ "'" ]
     ";": [ ";" ]
     "[": [ "[" ]
     "]": [ "]" ]
-#    "=": [ "=" ]
 
 key_binder:
-  import_preset: default #不要開啟會有問題
+  import_preset: default
   bindings:
     - {accept: comma, send: comma, when: has_menu} #
     - {accept: period, send: period, when: has_menu} #
     - {accept: minus, send: minus, when: has_menu} #
     - {accept: equal, send: equal, when: has_menu} #
-#    - {accept: apostrophe, send: apostrophe, when: composing}
-    - {accept: Return, send: space, when: has_menu} ###return,enter直出
+    - {accept: Return, send: space, when: has_menu} #return,enter直出
     - {accept: Left, send: Page_Up, when: paging}
     - {accept: Right, send: Page_Down, when: paging}
 
 recognizer:
   patterns:
-#    punct: "^=[-.,;/0-9a-z]*?$"

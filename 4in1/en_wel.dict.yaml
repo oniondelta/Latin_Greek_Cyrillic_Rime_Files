@@ -3,7 +3,7 @@
 # 《英‧西歐語系》
 ---
 name: en_wel
-version: "201910"
+version: "202007"
 sort: original #by_weight
 use_preset_vocabulary: false
 import_tables:
@@ -664,7 +664,9 @@ Z	;;z
 Ⱳ	;;wr
 Ⱶ	;;ih
 Ȿ	;;sc
-Ɀ	;;zfc
+Ɀ	;;vfc
+##
+#Ɀ	;;zfc
 ##
 #Ɀ	;;zc
 #Latin Extended-C其他大寫
@@ -677,6 +679,8 @@ Z	;;z
 ꜰ	;;fi
 ꜱ	;;si
 Ꜣ	;;jfjf
+##
+Ꜣ	;;jfhjf
 Ꜥ	;;cf
 ##
 Ꜥ	;;cfh
@@ -1397,7 +1401,9 @@ $	;sy
 ##以下ȿ為小寫
 ȿ	;sc
 ##以下ɀ為小寫
-ɀ	;zfc
+ɀ	;vfc
+##
+#ɀ	;zfc
 ##
 #ɀ	;zc
 ɂ	;jy
@@ -1613,9 +1619,11 @@ $	;sy
 ƪ	;ico
 ##
 ƪ	;ioc
-ƺ	;zs
+#ƺ	;zs
 ##
-ƺ	;zfs
+ƺ	;vfs
+##
+#ƺ	;zfs
 ##
 ƺ	;zfc
 ƻ	;rft
@@ -2024,7 +2032,9 @@ $	;sy
 Ⱳ	;wr
 Ⱶ	;ih
 Ȿ	;sc
-Ɀ	;zfc
+Ɀ	;vfc
+##
+#Ɀ	;zfc
 ##
 #Ɀ	;zc
 #Latin Extended-C其他
@@ -2043,6 +2053,8 @@ $	;sy
 #Latin Extended-D
 #Latin Extended-D小寫
 ꜣ	;jfjf
+##
+ꜣ	;jfhjf
 ꜥ	;cf
 ##
 ꜥ	;cfh
@@ -2214,6 +2226,8 @@ $	;sy
 ꜰ	;fi
 ꜱ	;si
 Ꜣ	;jfjf
+##
+Ꜣ	;jfhjf
 Ꜥ	;cf
 ##
 Ꜥ	;cfh
@@ -3296,7 +3310,7 @@ $	;sy
 ᶗ	;ckc
 ᶘ	;sfc
 ᶙ	;uc
-ᶚ	;zfgc
+#ᶚ	;zfgc
 ##
 ᶚ	;zfc
 ##
@@ -3807,7 +3821,7 @@ $	;sy
 #以下一個為容錯碼
 ͯ	';xh
 ######Combining Diacritical結束######
-##Superscripts and Subscripts（部分）開始
+##Superscripts and Subscripts開始
 ⁱ	;ih
 ⁺	;tw
 ##
@@ -3845,7 +3859,29 @@ $	;sy
 ₚ	;dph
 ₛ	;dsh
 ₜ	;dth
-##Superscripts and Subscripts（部分）結束
+#數字
+⁰	;ofh
+⁴	;dfh
+⁵	;ffh
+⁶	;sfh
+⁷	;vfh
+⁸	;bfh
+⁹	;gfh
+₀	;dofh
+₁	;dlfh
+₂	;drfh
+₃	;dzfh
+₄	;ddfh
+₅	;dffh
+₆	;dsfh
+₇	;dvfh
+₈	;dbfh
+₉	;dgfh
+#數字補充（C1 Controls and Latin-1 Supplement）
+¹	;lfh
+²	;rfh
+³	;zfh
+##Superscripts and Subscripts結束
 ########################
 #####Cyrillic總開始#####
 #大寫加速補碼
