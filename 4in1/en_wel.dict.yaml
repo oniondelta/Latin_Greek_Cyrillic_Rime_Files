@@ -35,6 +35,29 @@ w	;w
 x	;x
 y	;y
 z	;z
+## 一般標點符號 ##
+!	;ida
+!	;ifk
+!	;ik
+"	;pwpw
+'	;pw
+,	;ddw
+-	;ew
+.	;daw
+/	;pw
+/	;xw
+:	;awaw
+:	;awda
+:	;bwq
+;	;awdd
+;	;awdw
+?	;jfda
+?	;jfkda
+?	;jfyda
+~	;sw
+…	;awawaw
+…	;dawawaw
+…	;dawdawdaw
 #特殊簡碼提前方便打（基礎拉丁字母大寫）
 A	;a
 B	;b
@@ -988,6 +1011,10 @@ $	;sy
 `	;nw
 ^	;lw
 #Latin-1 Supplement
+### 避重碼例外編碼 ###
+ī	;iy
+Ī	;iy
+Ī	;;iy
 #Latin-1 Supplement小寫
 ##以下ß為小寫字母
 ß	;bi
@@ -2048,7 +2075,7 @@ $	;sy
 ##
 #Ɀ	;zc
 #Latin Extended-C其他
-ⱱ	;vr	
+ⱱ	;vr
 ⱴ	;vg
 ⱺ	;omo
 ##
@@ -2470,13 +2497,15 @@ $	;sy
 ꟻ	;fk
 #以下一個為大寫?
 ꟾ	;ii
-ꟿ	;xf
+ꟿ	;wf
+##
+#ꟿ	;xf
 ##
 ꟿ	;mhv
 ##
 ꟿ	;lhw
 ##
-ꟿ	;lhlhv
+#ꟿ	;lhlhv
 ##
 ꟿ	;nhn
 #Latin Extended-E
@@ -2854,9 +2883,17 @@ $	;sy
 ##
 ɮ	;lhzf
 ɯ	;mq
-ɰ	;wf
+ɰ	;xf
+##
+#ɰ	;wf
 ##
 ɰ	;mqy
+##
+ɰ	;mrq
+##
+ɰ	;wy
+##
+ɰ	;whi
 ɱ	;mj
 ɲ	;nj
 ɳ	;nc
@@ -3371,9 +3408,18 @@ $	;sy
 #以下一個為大寫
 ᶫ	;lh
 ᶬ	;mjh
-ᶭ	;wfh
+ᶭ	;xfh
 ##
-ᶭ	;mqh
+#ᶭ	;wfh
+##
+#ᶭ	;mqh
+ᶭ	;mqyh
+##
+ᶭ	;mrqh
+##
+ᶭ	;wyh
+##
+ᶭ	;wih
 ᶮ	;njh
 ᶯ	;nch
 #以下一個為大寫
@@ -4221,7 +4267,8 @@ $	;sy
 Ꙕ	]]ohi
 Ꙗ	]]iha
 Ꙙ	]]ade
-Ꙛ	]]xf
+Ꙛ	]]wf
+#Ꙛ	]]xf
 Ꙝ	]]ihade
 ##
 Ꙝ	]]iade
@@ -4248,7 +4295,9 @@ $	;sy
 Ꚁ	]]df
 Ꚃ	]]si
 Ꚅ	]]zhk
-Ꚇ	]]wf
+Ꚇ	]]xf
+##
+#Ꚇ	]]wf
 ##
 Ꚇ	]]wy
 ##
@@ -4256,10 +4305,14 @@ $	;sy
 ##
 Ꚇ	]]mqy
 ##
-Ꚇ	]]mqhi
+Ꚇ	]]mrq
 ##
-Ꚇ	]]mqi
+#Ꚇ	]]mqhi
+##
+#Ꚇ	]]mqi
 Ꚉ	]]dj
+##
+Ꚉ	]]dfj
 Ꚋ	]]tg
 Ꚍ	]]ti
 ##
@@ -4929,7 +4982,9 @@ $	;sy
 ꙕ	]ohi
 ꙗ	]iha
 ꙙ	]ade
-ꙛ	]xf
+ꙛ	]wf
+##
+#ꙛ	]xf
 ꙝ	]ihade
 ##
 ꙝ	]iade
@@ -4956,7 +5011,9 @@ $	;sy
 ꚁ	]df
 ꚃ	]sf
 ꚅ	]zhk
-ꚇ	]wf
+ꚇ	]xf
+##
+#ꚇ	]wf
 ##
 ꚇ	]wy
 ##
@@ -4964,10 +5021,14 @@ $	;sy
 ##
 ꚇ	]mqy
 ##
-ꚇ	]mqhi
+ꚇ	]mrq
 ##
-ꚇ	]mqi
+#ꚇ	]mqhi
+##
+#ꚇ	]mqi
 ꚉ	]dj
+##
+ꚉ	]dfj
 ꚋ	]tg
 ꚍ	]ti
 ##
@@ -5020,7 +5081,9 @@ $	;sy
 Ꙕ	]ohi
 Ꙗ	]iha
 Ꙙ	]ade
-Ꙛ	]xf
+Ꙛ	]wf
+##
+#Ꙛ	]xf
 Ꙝ	]ihade
 ##
 Ꙝ	]iade
@@ -5047,7 +5110,9 @@ $	;sy
 Ꚁ	]df
 Ꚃ	]si
 Ꚅ	]zhk
-Ꚇ	]wf
+Ꚇ	]xf
+##
+#Ꚇ	]wf
 ##
 Ꚇ	]wy
 ##
@@ -5055,10 +5120,14 @@ $	;sy
 ##
 Ꚇ	]mqy
 ##
-Ꚇ	]mqhi
+Ꚇ	]mrq
 ##
-Ꚇ	]mqi
+#Ꚇ	]mqhi
+##
+#Ꚇ	]mqi
 Ꚉ	]dj
+##
+Ꚉ	]dfj
 Ꚋ	]tg
 Ꚍ	]ti
 ##
