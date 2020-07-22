@@ -1719,13 +1719,15 @@ $	sy/
 ꟹ	oheh/
 ##
 ꟹ	oeh/
-ꟿ	xf/
+ꟿ	wf/
+##
+#ꟿ	xf/
 ##
 ꟿ	mhv/
 ##
 ꟿ	lhw/
 ##
-ꟿ	lhlhv/
+#ꟿ	lhlhv/
 ##
 ꟿ	nhn/
 ##### Latin Extended-E #####
@@ -1932,9 +1934,17 @@ $	sy/
 ##
 ɮ	lhzf/
 ɯ	mq/
-ɰ	wf/
+ɰ	xf/
+##
+#ɰ	wf/
 ##
 ɰ	mqy/
+##
+ɰ	mrq/
+##
+ɰ	wy/
+##
+ɰ	whi/
 ɱ	mj/
 ɲ	nj/
 ɳ	nc/
@@ -2448,9 +2458,19 @@ $	sy/
 ## 以下一個為大寫
 ᶫ	lh;
 ᶬ	mjh/
-ᶭ	wfh/
+ᶭ	xfh/
 ##
-ᶭ	mqh/
+#ᶭ	wfh/
+##
+#ᶭ	mqh/
+##
+ᶭ	mqyh/
+##
+ᶭ	mrqh/
+##
+ᶭ	wyh/
+##
+ᶭ	wih/
 ᶮ	njh/
 ᶯ	nch/
 ## 以下一個為大寫
