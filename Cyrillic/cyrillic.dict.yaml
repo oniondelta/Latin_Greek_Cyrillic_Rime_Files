@@ -657,7 +657,9 @@ use_preset_vocabulary: false
 ꙕ	ohi
 ꙗ	iha
 ꙙ	ade
-ꙛ	xf
+ꙛ	wf
+##
+#ꙛ	xf
 ꙝ	ihade
 ##
 ꙝ	iade
@@ -684,7 +686,8 @@ use_preset_vocabulary: false
 ꚁ	df	2
 ꚃ	sf	1
 ꚅ	zhk
-ꚇ	wf
+ꚇ	xf
+#ꚇ	wf
 ##
 ꚇ	wy
 ##
@@ -692,10 +695,14 @@ use_preset_vocabulary: false
 ##
 ꚇ	mqy
 ##
-ꚇ	mqhi
+ꚇ	mrq
 ##
-ꚇ	mqi
+#ꚇ	mqhi
+##
+#ꚇ	mqi
 ꚉ	dj
+##
+ꚉ	dfj
 ꚋ	tg
 ꚍ	ti
 ##
@@ -748,7 +755,9 @@ use_preset_vocabulary: false
 Ꙕ	ohi]
 Ꙗ	iha]
 Ꙙ	ade]
-Ꙛ	xf]
+Ꙛ	wf]
+##
+#Ꙛ	xf]
 Ꙝ	ihade]
 ##
 Ꙝ	iade]
@@ -775,7 +784,9 @@ use_preset_vocabulary: false
 Ꚁ	df]	1
 Ꚃ	si]
 Ꚅ	zhk]
-Ꚇ	wf]
+Ꚇ	xf]
+##
+#Ꚇ	wf]
 ##
 Ꚇ	wy]
 ##
@@ -783,10 +794,14 @@ use_preset_vocabulary: false
 ##
 Ꚇ	mqy]
 ##
-Ꚇ	mqhi]
+Ꚇ	mrq]
 ##
-Ꚇ	mqi]
+#Ꚇ	mqhi]
+##
+#Ꚇ	mqi]
 Ꚉ	dj]
+##
+Ꚉ	dfj]
 Ꚋ	tg]
 Ꚍ	ti]
 ##
