@@ -1,4 +1,4 @@
-# latin-greek-cyrillic-rime（洋蔥西歐字母形碼方案）
+# Latin_Greek_Cyrillic_Rime（洋蔥西歐字母形碼方案）
 
 #### ※ 請勿使用於商業營利相關行為
 #### ※ Commercial use is prohibited
