@@ -3,7 +3,7 @@
 # 《英‧西歐語系》
 ---
 name: en_wel
-version: "202007"
+version: "202012"
 sort: original #by_weight
 use_preset_vocabulary: false
 import_tables:
