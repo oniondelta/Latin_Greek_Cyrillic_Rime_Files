@@ -1,6 +1,6 @@
 # Rime schema settings
 # encoding: utf-8
-# 《西文字母(字母單出)設定頁》
+# 《西文字母單出（洋蔥形碼鍵位）設定頁》
 schema:
   schema_id: en_wel
   name: ✪西歐字母-洋蔥版✪
