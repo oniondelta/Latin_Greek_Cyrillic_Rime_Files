@@ -1,6 +1,7 @@
 # Rime dictionary
 # encoding: utf-8
-# 《英‧西歐語系》
+# 《西文字母單出（洋蔥形碼鍵位）碼表》
+# 『洋蔥』製作
 ---
 name: en_wel
 version: "202012"
@@ -517,7 +518,7 @@ Z	;;z
 Ʌ	;;vk
 Ɇ	;;ex
 Ɉ	;;jt
-Ɋ	;;ac
+#Ɋ	;;ac
 ##
 Ɋ	;;qc
 Ɍ	;;rt
@@ -1637,7 +1638,7 @@ $	;sy
 Ʌ	;vk
 Ɇ	;ex
 Ɉ	;jt
-Ɋ	;ac
+#Ɋ	;ac
 ##
 Ɋ	;qc
 Ɍ	;rt
