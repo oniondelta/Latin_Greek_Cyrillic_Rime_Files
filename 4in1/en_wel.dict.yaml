@@ -4,12 +4,13 @@
 # 『洋蔥』製作
 ---
 name: en_wel
-version: "202012"
+version: "202106"
 sort: original #by_weight
 use_preset_vocabulary: false
 import_tables:
 
 ...
+#####@@@ 拉丁字母開始 #####
 a	;a
 b	;b
 c	;c
@@ -36,7 +37,9 @@ w	;w
 x	;x
 y	;y
 z	;z
-## 一般標點符號 ##
+###@ 一般標點符號 ###
+ 	;jj
+ 	;;jj
 !	;ida
 !	;ifk
 !	;ik
@@ -59,33 +62,7 @@ z	;z
 …	;awawaw
 …	;dawawaw
 …	;dawdawdaw
-#特殊簡碼提前方便打（基礎拉丁字母大寫）
-A	;a
-B	;b
-C	;c
-D	;d
-E	;e
-F	;f
-G	;g
-H	;h
-I	;i
-J	;j
-K	;k
-L	;l
-M	;m
-N	;n
-O	;o
-P	;p
-Q	;q
-R	;r
-S	;s
-T	;t
-U	;u
-V	;v
-W	;w
-X	;x
-Y	;y
-Z	;z
+###@ 非拉丁字母，但收錄在拉丁字母中 ###
 ###下方為希臘文，但KK音標中有，故收錄
 θ	;qi
 ###下方為希臘文，但IPA音標中有，故收錄
@@ -126,7 +103,7 @@ Z	;z
 ↘	;lwq
 ꜛ	;lw
 ꜜ	;lwk
-##########一般的英語字開始########
+###一般的英語字開始？###
 #加強英打快速
 #’	;
 ####校正排序####
@@ -152,53 +129,31 @@ Z	;z
 Ɖ	;;dt
 #
 Ɖ	;;dc
-###################
-Đ	;dt
-Ð	;dt
-#
-Ð	;dx
-Ð	;dfx
-Ɖ	;dt
-#
-Ɖ	;dc
-########################################
-########################################
+##################
+##################
 #ʒ	;zfg
 ##
 ʒ	;zf
 ##
 #ʒ	;zg
 ##上兩個字母為ipa的
-#Ʒ	;zfg
-##
-Ʒ	;zf
-##
-#Ʒ	;zg
-##################
 #Ʒ	;;zfg
 ##
 Ʒ	;;zf
 ##
 #Ʒ	;;zg
-########################################
-########################################
+##################
+##################
 #以下一個為大寫
-ʀ	;ihr
-##
-ʀ	;ri
 ʀ	;;ihr
 ##
 ʀ	;;ri
 ##上字母為ipa的
-Ʀ	;ihr
-##
-Ʀ	;ri
 Ʀ	;;ihr
 ##
 Ʀ	;;ri
-########################################
-#加快大寫補碼
-#基礎拉丁字母大寫
+##################
+###@ 基礎拉丁字母大寫 ###
 A	;;a
 B	;;b
 C	;;c
@@ -225,7 +180,7 @@ W	;;w
 X	;;x
 Y	;;y
 Z	;;z
-#Latin-1 Supplement大寫
+###@ Latin-1 Supplement大寫 ###
 ẞ	;;bi
 ##
 ẞ	;;shs
@@ -267,7 +222,7 @@ Z	;;z
 Þ	;;iho
 ##
 Þ	;;bhp
-#Latin Extended-A大寫
+###@ Latin Extended-A大寫 ###
 Ā	;;ae
 Ă	;;au
 Ą	;;ac
@@ -343,7 +298,8 @@ Z	;;z
 Ź	;;zp
 Ż	;;za
 Ž	;;zv
-#Latin Extended-B大寫
+###@ Latin Extended-B大寫 ###
+Ə	;;eq
 Ɓ	;;br
 Ƃ	;;si
 Ƅ	;;bi
@@ -525,14 +481,14 @@ Z	;;z
 ##
 Ɍ	;;ri
 Ɏ	;;yt
-#Latin Extended-B其他_連音音標大寫
+####Latin Extended-B其他_連音音標大寫
 Ǆ	;;dzv
 ##
 Ǆ	;;dhzv
 Ǉ	;;lhj
 Ǌ	;;nhj
 Ǳ	;;dhz
-#Latin Extended Additional大寫
+###@ Latin Extended Additional大寫 ###
 Ḁ	;;ado
 Ḃ	;;ba
 Ḅ	;;bda
@@ -671,7 +627,7 @@ Z	;;z
 Ỿ	;;yo
 ##
 Ỿ	;;yg
-#Latin Extended-C大寫
+###@ Latin Extended-C大寫 ###
 Ⱡ	;;ltt
 Ɫ	;;lz
 Ᵽ	;;pt
@@ -698,7 +654,7 @@ Z	;;z
 ##
 ⱻ	;;eq
 ⱽ	;;vh
-#Latin Extended-D大寫
+###@ Latin Extended-D大寫 ###
 Ᵹ	;;df
 ##
 #Ᵹ	;;dk
@@ -882,10 +838,10 @@ Z	;;z
 ꟺ	;;wi
 ꟻ	;;fk
 ꟾ	;;ii
-#Latin Extended-E大寫
+###@ Latin Extended-E大寫 ###
 ꭆ	;;rc
 ꭥ	;;wi
-######IPA Extensions大寫
+###@ IPA Extensions大寫 ###
 ɢ	;;gi
 ɪ	;;ii
 ɴ	;;ni
@@ -896,7 +852,7 @@ Z	;;z
 ʛ	;;gr
 ʜ	;;hi
 ʟ	;;li
-#Phonetic Extensions大寫
+###@ Phonetic Extensions大寫 ###
 ᴀ	;;ai
 ᴁ	;;ahe
 ᴃ	;;bt
@@ -974,7 +930,7 @@ Z	;;z
 ##
 ᵻ	;;tf
 ᵾ	;;ut
-#Phonetic Extensions Supplement大寫
+###@ Phonetic Extensions Supplement大寫 ###
 ᶦ	;;ih
 ᶧ	;;ith
 ##
@@ -982,11 +938,10 @@ Z	;;z
 ᶫ	;;lh
 ᶰ	;;nh
 ᶸ	;;uh
-#Spacing Modifier Letters大寫
+###@ Spacing Modifier Letters大寫 ###
 ʶ	;;rkh
-################
 ##########################
-#基礎拉丁字母
+###@ 基礎拉丁字母小寫 ###
 #基礎拉丁字母其他
 $	;si
 ##
@@ -1011,10 +966,9 @@ $	;sy
 #&	;et
 `	;nw
 ^	;lw
-#Latin-1 Supplement
+###@ Latin-1 Supplement小寫 ###
 ### 避重碼例外編碼 ###
 ī	;iy
-Ī	;iy
 Ī	;;iy
 #Latin-1 Supplement小寫
 ##以下ß為小寫字母
@@ -1063,48 +1017,6 @@ $	;sy
 þ	;bhp
 ÿ	;yb
 µ	;mi
-#Latin-1 Supplement大寫
-ẞ	;bi
-##
-ẞ	;shs
-À	;an
-Á	;ap
-Â	;al
-Ã	;as
-Ä	;ab
-Å	;ao
-Æ	;ahe
-##
-#Æ###ae
-Ç	;cj
-È	;en
-É	;ep
-Ê	;el
-Ë	;eb
-Ì	;in
-Í	;ip
-Î	;il
-Ï	;ib
-#Ð	dt
-Ñ	;ns
-Ò	;on
-Ó	;op
-Ô	;ol
-Õ	;os
-Ö	;ob
-Ø	;ox
-Ù	;un
-Ú	;up
-Û	;ul
-Ü	;ub
-Ý	;yp
-Þ	;lf
-##
-Þ	;lho
-##
-Þ	;iho
-##
-Þ	;bhp
 #Latin-1 Supplement其他
 ÷	;awewaw
 ##
@@ -1161,7 +1073,7 @@ $	;sy
 ##
 #¬	;lq
 #Latin Extended-A
-#Latin Extended-A小寫
+###@ Latin Extended-A小寫 ###
 ā	;ae
 ă	;au
 ą	;ac
@@ -1239,84 +1151,8 @@ $	;sy
 ##
 ſ	;jq
 ſ	;jqh
-#Latin Extended-A大寫
-Ā	;ae
-Ă	;au
-Ą	;ac
-Ć	;cp
-Ĉ	;cl
-Ċ	;ca
-Č	;cv
-Ď	;dv
-#Đ	dt
-Ē	;ee
-Ĕ	;eu
-Ė	;ea
-Ę	;ec
-Ě	;ev
-Ĝ	;gl
-Ğ	;gu
-Ġ	;ga
-Ģ	;gdd
-##
-Ģ	;gj
-Ĥ	;hl
-Ħ	;ht
-Ĩ	;is
-Ī	;ie
-Ĭ	;iu
-Į	;ic
-İ	;ia
-Ĳ	;ihj
-Ĵ	;jl
-Ķ	;kdd
-##
-Ķ	;kj
-Ĺ	;lp
-Ļ	;ldd
-##
-Ļ	;lj
-Ľ	;ld
-Ŀ	;lma
-Ł	;lx
-Ń	;np
-Ņ	;ndd
-##
-Ņ	;nj
-Ň	;nv
-Ŋ	;nj
-##
-Ŋ	;lg
-Ō	;oe
-Ŏ	;ou
-Ő	;opp
-Œ	;ohe
-Ŕ	;rp
-Ŗ	;rdd
-##
-Ŗ	;rj
-Ř	;rv
-Ś	;sp
-Ŝ	;sl
-Ş	;sj
-Š	;sv
-Ţ	;tj
-Ť	;tv
-Ŧ	;tt
-Ũ	;us
-Ū	;ue
-Ŭ	;uu
-Ů	;uo
-Ű	;upp
-Ų	;uc
-Ŵ	;wl
-Ŷ	;yl
-Ÿ	;yb
-Ź	;zp
-Ż	;za
-Ž	;zv
 #Latin Extended-B
-#Latin Extended-B小寫
+###@ Latin Extended-B小寫 ###
 ƀ	;bt
 ƃ	;si
 ƅ	;bi
@@ -1462,189 +1298,6 @@ $	;sy
 ɋ	;qc
 ɍ	;rt
 ɏ	;yt
-#Latin Extended-B大寫
-Ə	;;eq
-Ɓ	;br
-Ƃ	;si
-Ƅ	;bi
-##
-Ƅ	;br
-Ƈ	;cr
-##以下Ɔ為大寫
-Ɔ	;ck
-##
-Ɔ	;jf
-#Ɖ	dt
-Ɗ	;dr
-Ƌ	;sk
-Ǝ	;ek
-##
-Ǝ	;eq
-##以下Ɛ為大寫
-Ɛ	;ei
-Ƒ	;fj
-Ɠ	;gr
-##以下Ɣ為大寫
-Ɣ	;vo
-##
-Ɣ	;go
-##
-Ɣ	;no
-Ɨ	;it
-##
-Ɨ	;tf
-Ƙ	;kr
-##以下Ɯ為大寫
-Ɯ	;mq
-##
-#Ɯ	;mk
-Ɲ	;nj
-##以下Ɵ為大寫
-Ɵ	;qi
-Ơ	;od
-Ƣ	;olf
-##
-Ƣ	;ohl
-##
-Ƣ	;ohi
-Ƥ	;pr
-##以下Ʀ為大寫
-#Ʀ	ihr
-Ƨ	;sk
-##以下Ʃ為大寫
-Ʃ	;si
-Ƭ	;ti
-##
-Ƭ	;tr
-Ʈ	;tc
-##
-Ʈ	;ti
-Ư	;ud
-##以下Ʊ為大寫
-Ʊ	;wk
-##以下Ʋ為大寫
-Ʋ	;vf
-##
-Ʋ	;yi
-Ƴ	;yr
-Ƶ	;zt
-##以下Ʒ為大寫
-#Ʒ	zg
-##
-#Ʒ	zfg
-##
-#Ʒ	zf
-#Ƹ	;zgk
-##
-#Ƹ	;zfgk
-##
-Ƹ	;zfk
-Ƽ	;ff
-Ǎ	;av
-Ǐ	;iv
-Ǒ	;ov
-Ǔ	;uv
-Ǖ	;ueb
-Ǘ	;upb
-Ǚ	;uvb
-Ǜ	;unb
-Ǟ	;aeb
-Ǡ	;aea
-Ǣ	;ahee
-##
-Ǣ	;aee
-#Ǣ###aee
-Ǥ	;gt
-Ǧ	;gv
-Ǩ	;kv
-Ǫ	;oc
-Ǭ	;oce
-#Ǯ	;zgv
-##
-#Ǯ	;zfgv
-##
-Ǯ	;zfv
-Ǵ	;gp
-Ƕ	;hu
-##
-Ƕ	;hhu
-Ƿ	;pf
-Ǹ	;nn
-Ǻ	;apo
-Ǽ	;ahep
-##
-Ǽ	;aep
-#Ǽ###aep
-Ǿ	;oxp
-Ȁ	;ann
-Ȃ	;am
-Ȅ	;enn
-Ȇ	;em
-Ȉ	;inn
-Ȋ	;im
-Ȍ	;onn
-Ȏ	;om
-Ȑ	;rnn
-Ȓ	;rm
-Ȕ	;unn
-Ȗ	;um
-Ș	;sdd
-##
-Ș	;sj
-Ț	;tdd
-##
-Ț	;tj
-Ȝ	;zi
-##
-#Ȝ	;zfg
-##
-Ȝ	;zf
-Ȟ	;hv
-##以下Ƞ為大寫
-Ƞ	;ny
-##
-Ƞ	;hi
-Ȣ	;uho
-Ȥ	;zy
-##
-Ȥ	;zj
-Ȧ	;aa
-Ȩ	;ej
-Ȫ	;oeb
-Ȭ	;oes
-Ȯ	;oa
-Ȱ	;oea
-Ȳ	;ye
-Ⱥ	;ax
-Ȼ	;cx
-Ƚ	;lt
-Ⱦ	;tx
-Ɂ	;jfy
-##
-Ɂ	;jy
-##
-Ɂ	;jfk
-##
-#Ɂ	;cfq
-##
-##Ɂ	cfyk
-##
-##Ɂ	cyk
-Ƀ	;bt
-Ʉ	;ut
-##以下Ʌ為大寫
-Ʌ	;li
-##
-Ʌ	;vk
-Ɇ	;ex
-Ɉ	;jt
-#Ɋ	;ac
-##
-Ɋ	;qc
-Ɍ	;rt
-##
-Ɍ	;ri
-Ɏ	;yt
 #Latin Extended-B其他_連音音標（沒有大小寫的分別）20191004修改四個為大寫
 ƍ	;dq
 ##
@@ -1695,26 +1348,16 @@ $	;sy
 ##
 ǂ	;tft
 ǃ	;ifk
-#以下一個為大寫
-Ǆ	;dzv
-##
-Ǆ	;dhzv
 ǅ	;dzv
 ##
 ǅ	;dhzv
 ǆ	;dzv
 ##
 ǆ	;dhzv
-#以下一個為大寫
-Ǉ	;lhj
 ǈ	;lhj
 ǉ	;lhj
-#以下一個為大寫
-Ǌ	;nhj
 ǋ	;nhj
 ǌ	;nhj
-#以下一個為大寫
-Ǳ	;dhz
 ǲ	;dhz
 ǳ	;dhz
 ȡ	;dg
@@ -1726,7 +1369,7 @@ $	;sy
 ȸ	;dhb
 ȹ	;qhp
 #Latin Extended Additional
-#Latin Extended Additional小寫
+###@ Latin Extended Additional小寫 ###
 ḁ	;ado
 ḃ	;ba
 ḅ	;bda
@@ -1876,145 +1519,6 @@ $	;sy
 ỿ	;yo
 ##
 ỿ	;yg
-#Latin Extended Additional大寫
-Ḁ	;ado
-Ḃ	;ba
-Ḅ	;bda
-Ḇ	;bde
-Ḉ	;cjp
-Ḋ	;da
-Ḍ	;dda
-Ḏ	;dde
-Ḑ	;ddd
-##以下容錯碼不確定
-Ḑ	;dj
-Ḓ	;ddl
-Ḕ	;ene
-Ḗ	;epe
-Ḙ	;edl
-Ḛ	;eds
-Ḝ	;eju
-Ḟ	;fa
-Ḡ	;ge
-Ḣ	;ha
-Ḥ	;hda
-Ḧ	;hb
-Ḩ	;hj
-Ḫ	;hdu
-Ḭ	;ids
-Ḯ	;ipb
-Ḱ	;kp
-Ḳ	;kda
-Ḵ	;kde
-Ḷ	;lda
-Ḹ	;leda
-Ḻ	;lde
-Ḽ	;ldl
-Ḿ	;mp
-Ṁ	;ma
-Ṃ	;mda
-Ṅ	;na
-Ṇ	;nda
-Ṉ	;nde
-Ṋ	;ndl
-Ṍ	;ops
-Ṏ	;obs
-Ṑ	;one
-Ṓ	;ope
-Ṕ	;pp
-Ṗ	;pa
-Ṙ	;ra
-Ṛ	;rda
-Ṝ	;reda
-Ṟ	;rde
-Ṡ	;sa
-Ṣ	;sda
-Ṥ	;sap
-Ṧ	;sav
-Ṩ	;sada
-Ṫ	;ta
-Ṭ	;tda
-Ṯ	;tde
-Ṱ	;tdl
-Ṳ	;udb
-Ṵ	;uds
-Ṷ	;udl
-Ṹ	;ups
-Ṻ	;ube
-Ṽ	;vs
-Ṿ	;vda
-Ẁ	;wn
-Ẃ	;wp
-Ẅ	;wb
-Ẇ	;wa
-Ẉ	;wda
-Ẋ	;xa
-Ẍ	;xb
-Ẏ	;ya
-Ẑ	;zl
-Ẓ	;zda
-Ẕ	;zde
-Ạ	;ada
-Ả	;aj
-Ấ	;apl
-##
-Ấ	;alp
-Ầ	;anl
-Ẩ	;alj
-##
-Ẩ	;ajl
-Ẫ	;asl
-Ậ	;alda
-Ắ	;apu
-Ằ	;anu
-Ẳ	;aju
-Ẵ	;asu
-Ặ	;auda
-Ẹ	;eda
-Ẻ	;ej
-Ẽ	;es
-Ế	;epl
-##
-Ế	;elp
-Ề	;enl
-Ể	;elj
-##
-Ể	;ejl
-Ễ	;esl
-Ệ	;elda
-Ỉ	;ij
-Ị	;ida
-Ọ	;oda
-Ỏ	;oj
-Ố	;opl
-##
-Ố	;olp
-Ồ	;onl
-Ổ	;olj
-##
-Ổ	;ojl
-Ỗ	;osl
-Ộ	;olda
-Ớ	;opd
-Ờ	;ond
-Ở	;ojd
-Ỡ	;osd
-Ợ	;odda
-Ụ	;uda
-Ủ	;uj
-Ứ	;upd
-Ừ	;und
-Ử	;ujd
-Ữ	;usd
-Ự	;udda
-Ỳ	;yn
-Ỵ	;yda
-Ỷ	;yj
-Ỹ	;ys
-Ỽ	;qf
-Ỿ	;yo
-##
-Ỿ	;yg
 #Latin Extended Additional其他
 #Ỻ	;il
 ##
@@ -2035,7 +1539,7 @@ $	;sy
 ##
 ỻ	;iwiwt
 #Latin Extended-C
-#Latin Extended-C小寫
+###@ Latin Extended-C小寫 ###
 ⱡ	;ltt
 ##
 ⱡ	;nfq
@@ -2047,49 +1551,25 @@ $	;sy
 ⱳ	;wr
 ⱶ	;ih
 ⱷ	;eq
+## 不鏡射而成都設成[q]，下面容錯碼
+ⱷ	;eqk
+##
+ⱷ	;ekq
 ##
 ##ⱷ##fi
 ⱸ	;ec
 ⱹ	;rqr
 ##
 ⱹ	;rcq
-#Latin Extended-C大寫
-Ⱡ	;ltt
-Ɫ	;lz
-Ᵽ	;pt
-Ɽ	;rc
-Ⱨ	;hy
-Ⱪ	;ky
-Ⱬ	;zy
-Ɑ	;ai
-Ɱ	;mj
-Ɐ	;ak
-Ɒ	;aq
-##
-Ɒ	;ak
-Ⱳ	;wr
-Ⱶ	;ih
-Ȿ	;sc
-Ɀ	;vfc
-##
-#Ɀ	;zfc
-##
-#Ɀ	;zc
 #Latin Extended-C其他
 ⱱ	;vr
 ⱴ	;vg
 ⱺ	;omo
 ##
 ⱺ	;oo
-#以下一個為大寫
-ⱻ	;ek
-##
-ⱻ	;eq
 ⱼ	;djh
-#以下一個為大寫
-ⱽ	;vh
 #Latin Extended-D
-#Latin Extended-D小寫
+###@ Latin Extended-D小寫 ###
 ꜣ	;jfjf
 ##
 ꜣ	;jfhjf
@@ -2259,159 +1739,6 @@ $	;sy
 ꞷ	;cjf
 ꟼ	;qi
 ꟽ	;mk
-#Latin Extended-D大寫
-Ᵹ	;df
-##
-#Ᵹ	;dk
-##
-Ᵹ	;zfo
-##
-Ᵹ	;zfho
-Ꭓ	;xi
-ꜰ	;fi
-ꜱ	;si
-Ꜣ	;jfjf
-##
-Ꜣ	;jfhjf
-Ꜥ	;cf
-##
-Ꜥ	;cfh
-#Ꜥ	;ci
-#Ꜥ	;ch
-Ꜧ	;hj
-Ꜫ	;ef
-Ꜭ	;dfj
-Ꜯ	;dfjdd
-Ꜳ	;aha
-##
-#Ꜳ	;aa
-Ꜵ	;aho
-Ꜷ	;au
-##
-Ꜷ	;ahu
-Ꜹ	;ahv
-Ꜻ	;ahvt
-##
-Ꜻ	;avt
-Ꜽ	;ahy
-Ꜿ	;jfma
-##
-Ꜿ	;ckma
-Ꝁ	;kt
-Ꝃ	;kx
-Ꝅ	;ktx
-Ꝇ	;li
-Ꝉ	;lt
-Ꝋ	;ot
-Ꝍ	;or
-##
-Ꝍ	;oo
-Ꝏ	;oho
-Ꝑ	;pt
-Ꝓ	;pk
-Ꝕ	;pk
-Ꝗ	;qx
-Ꝙ	;qx
-Ꝛ	;rf
-Ꝝ	;rfx
-Ꝟ	;vx
-Ꝡ	;wj
-##
-Ꝡ	;why
-#Ꝣ	;zgr
-##
-#Ꝣ	;zfgr
-##
-Ꝣ	;zfr
-##
-#Ꝣ	;czg
-##
-#Ꝣ	;czfg
-##
-Ꝣ	;czf
-##
-#Ꝣ	;chzg
-##
-#Ꝣ	;chzfg
-##
-Ꝣ	;chzf
-Ꝥ	;lft
-##
-Ꝥ	;bhpt
-##
-Ꝥ	;bpt
-##
-Ꝥ	;ihot
-##
-Ꝥ	;iot
-##
-Ꝥ	;lhot
-##
-Ꝥ	;lot
-Ꝧ	;lft
-##
-Ꝧ	;bhpt
-##
-Ꝧ	;bpt
-##
-Ꝧ	;ihot
-##
-Ꝧ	;iot
-##
-Ꝧ	;lhot
-##
-Ꝧ	;lot
-Ꝩ	;yf
-Ꝫ	;zi
-Ꝭ	;kf
-##
-Ꝭ	;sfg
-Ꝯ	;gf
-Ꝼ	;rh
-Ꝿ	;dfq
-##
-##Ꝿ	##dq
-##
-Ꝿ	;zfoq
-##
-Ꝿ	;zfqo
-Ꞁ	;lq
-##
-Ꞁ	;gk
-Ꞃ	;hf
-##
-Ꞃ	;nyc
-Ꞅ	;ri
-Ꞇ	;tf
-##
-##Ꞇ##ti
-Ꞑ	;ny
-Ꞓ	;ct
-Ꞗ	;bk
-Ꞛ	;bk
-Ꞝ	;bfk
-Ꞟ	;rfq
-Ꞡ	;gx
-Ꞣ	;kx
-Ꞥ	;nx
-Ꞧ	;rx
-Ꞩ	;sx
-Ɦ	;hr
-Ɬ	;lk
-Ꞵ	;by
-##
-Ꞵ	;bi
-##
-Ꞵ	;ihb
-Ꞷ	;wi
-##
-Ꞷ	;chck
-##
-Ꞷ	;cck
-##
-Ꞷ	;chjf
-##
-Ꞷ	;cjf
 #Latin Extended-D其他
 ꜠	;fq
 ##
@@ -2419,18 +1746,6 @@ $	;sy
 ꜡	;fq
 ##
 ꜡	;dfqh
-#以下一個為大寫
-#Ꜩ	;tzg
-##
-#Ꜩ	;tzfg
-##
-Ꜩ	;tzf
-##
-#Ꜩ	;thzg
-##
-#Ꜩ	;thzfg
-##
-Ꜩ	;thzf
 #ꜩ	;tzg
 ##
 #ꜩ	;tzfg
@@ -2460,44 +1775,12 @@ $	;sy
 ꞌ	;pw
 ##
 #ꞌ	;ih
-#以下一個為大寫
-Ɥ	;ui
-##
-Ɥ	;hq
 ꞏ	;aw
 ꞔ	;cj
-#以下一個為大寫
-Ꞙ	;gjt
-##
-Ꞙ	;gtj
 ꞙ	;ft
-#以下一個為大寫
-Ɜ	;zi
-#以下一個為大寫
-Ɡ	;gi
-#以下一個為大寫
-Ʞ	;kq
-##
-Ʞ	;kk
-#以下一個為大寫
-Ʇ	;tk
-#以下一個為大寫
-Ʝ	;jg
-##
-Ʝ	;ig
-#以下一個為大寫
-ꟷ	;iq
-#以下一個為大寫
-ꟸ	;hth
 ꟹ	;oheh
 ##
 ꟹ	;oeh
-#以下一個為大寫
-ꟺ	;wi
-#以下一個為大寫
-ꟻ	;fk
-#以下一個為大寫?
-ꟾ	;ii
 ꟿ	;wf
 ##
 #ꟿ	;xf
@@ -2509,7 +1792,7 @@ $	;sy
 #ꟿ	;lhlhv
 ##
 ꟿ	;nhn
-#Latin Extended-E
+###@ Latin Extended-E小寫 ###
 #(暫時不分大小寫)20191004分出一個大寫
 ꬰ	;at
 ꬱ	;ahek
@@ -2551,8 +1834,6 @@ $	;sy
 ꭅ	;nf
 ##
 ꭅ	;yk
-#以下一個為大寫
-ꭆ	;rc
 ꭇ	;ri
 ꭈ	;rr
 ꭉ	;rg
@@ -2623,183 +1904,9 @@ $	;sy
 ##
 ꭣ	;yfo
 ꭤ	;ai
-#以下一個為大寫
-ꭥ	;wi
 ####前面單元結束，後面201707新增######
-##########英文全形字庫######
-##########新增英文字母全形開始############
-###########################
-－	'ew
-#以下一個容錯碼
-###－	'iq
-．	'daw
-#以下一個容錯碼
-###．	'aw
-，	'ddw
-#以下一個容錯碼
-，	'dw
-／	'pw
-／	'xw
-？	'jfda
-#以下三個容錯碼
-#？	'jyda
-##
-？	'jfyda
-##
-？	'jfkda
-！	'ida
-#以下兩個容錯碼
-！	'ik
-！	'ifk
-；	'awdw
-#以下一個容錯碼
-；	'awddw
-#；	'add
-：	'awaw
-#以下一個容錯碼
-：	'bwq
-#：	aha
-～	'sw
-＇	'pw
-#以下兩個容錯碼
-#＇	'ih
-#＇	'if
-＂	'pwpw
-#以下一個容錯碼
-#＂	'ii
-###大寫快速調出開始（一）#######
-Ａ	''a
-Ｂ	''b
-Ｃ	''c
-Ｄ	''d
-Ｅ	''e
-Ｆ	''f
-Ｇ	''g
-Ｈ	''h
-Ｉ	''i
-Ｊ	''j
-Ｋ	''k
-Ｌ	''l
-Ｍ	''m
-Ｎ	''n
-Ｏ	''o
-Ｐ	''p
-Ｑ	''q
-Ｒ	''r
-Ｓ	''s
-Ｔ	''t
-Ｕ	''u
-Ｖ	''v
-Ｗ	''w
-Ｘ	''x
-Ｙ	''y
-Ｚ	''z
-###大寫快速調出結束（一）####
-###一般調出開始#####
-ａ	'a
-ｂ	'b
-ｃ	'c
-ｄ	'd
-ｅ	'e
-ｆ	'f
-ｇ	'g
-ｈ	'h
-ｉ	'i
-ｊ	'j
-ｋ	'k
-ｌ	'l
-ｍ	'm
-ｎ	'n
-ｏ	'o
-ｐ	'p
-ｑ	'q
-ｒ	'r
-ｓ	's
-ｔ	't
-ｕ	'u
-ｖ	'v
-ｗ	'w
-ｘ	'x
-ｙ	'y
-ｚ	'z
-#######
-Ａ	'a
-Ｂ	'b
-Ｃ	'c
-Ｄ	'd
-Ｅ	'e
-Ｆ	'f
-Ｇ	'g
-Ｈ	'h
-Ｉ	'i
-Ｊ	'j
-Ｋ	'k
-Ｌ	'l
-Ｍ	'm
-Ｎ	'n
-Ｏ	'o
-Ｐ	'p
-Ｑ	'q
-Ｒ	'r
-Ｓ	's
-Ｔ	't
-Ｕ	'u
-Ｖ	'v
-Ｗ	'w
-Ｘ	'x
-Ｙ	'y
-Ｚ	'z
-#########一般調出結束#####
-##############類英文字母全形符號調出開始#########
-￠	'cx
-##
-￠	'ci
-##
-￠	'cf
-￡	'lft
-￢	'gwk
-#以下兩個容錯碼
-#￢	'lq
-##￢		'gwq
-￣	'ew
-￤	'iwiw
-##
-#￤	'lwlw
-##
-#￤	'lwhlw
-##
-#￤	'lhl
-￥	'ytt
-￦	'wt
-＠	'at
-#以下三個容錯碼
-＠	'ao
-＠	'aho
-＠	'amo
-＾	'lw
-#
-#＾	'lh
-｀	'nw
-＿	'dew
-###＃	'
-＄	'si
-％	'owpwow
-#以下三個容錯碼
-％	'owxwow
-％	'oxo
-％	'opo
-＆	'bfk
-#以下三個容錯碼
-＆	'bf
-＆	'et
-＆	'and
-＊	'jw
-＜	'vwq
-＞	'vwq
-##############類英文字母全形符號結束#########
-##########新增英文字母全形結束############
-##########拉丁字母結束##########
-######IPA Extensions開始#####
+##### 拉丁字母結束 #####
+###@ IPA Extensions開始 ###
 ɐ	;aq
 ɑ	;ai
 ɒ	;aq
@@ -2826,8 +1933,6 @@ $	;sy
 ɟ	;jt
 ɠ	;gr
 ɡ	;gi
-#以下一個為大寫
-ɢ	;gi
 ɣ	;vo
 ##
 ɣ	;no
@@ -2855,8 +1960,6 @@ $	;sy
 ɧ	;hcr
 ɨ	;it
 ɩ	;ii
-#以下一個為大寫
-ɪ	;ii
 ɫ	;iz
 ##
 ɫ	;lz
@@ -2900,11 +2003,7 @@ $	;sy
 ɱ	;mj
 ɲ	;nj
 ɳ	;nc
-#以下一個為大寫
-ɴ	;ni
 ɵ	;qi
-#以下一個為大寫
-ɶ	;ohe
 ɷ	;bfq
 ɸ	;fi
 ɹ	;rq
@@ -2920,9 +2019,6 @@ $	;sy
 ɿ	;jk
 ##
 ɿ	;lf
-#ʀ	;ri #移前
-#以下一個為大寫
-ʁ	;rk
 ʂ	;sc
 ʃ	;sf
 ʄ	;sft
@@ -2946,8 +2042,6 @@ $	;sy
 ʌ	;vk
 ʍ	;wk
 ʎ	;yq
-#以下一個為大寫
-ʏ	;yi
 ʐ	;zc
 ʑ	;zg
 #ʒ	;zfg #移前
@@ -2989,21 +2083,13 @@ $	;sy
 ##ʖ	;cyq
 ʗ	;ci
 ʘ	;oma
-#以下一個為大寫
-ʙ	;bi
 ʚ	;bfk
-#以下一個為大寫
-ʛ	;gr
-#以下一個為大寫
-ʜ	;hi
 ʝ	;jg
 ##
 ʝ	;ig
 ʞ	;kq
 ##
 ʞ	;kk
-#以下一個為大寫
-ʟ	;li
 ʠ	;qr
 ʡ	;jfyt
 ##
@@ -3079,46 +2165,14 @@ $	;sy
 ʯ	;hqrc
 ##
 ʯ	;hrcq
-#Phonetic Extensions
-#以下一個為大寫
-ᴀ	;ai
-#以下一個為大寫
-ᴁ	;ahe
+###@ Phonetic Extensions ###
 ᴂ	;eqhe
 ##
 ᴂ	;eqe
-#以下一個為大寫
-ᴃ	;bt
-#以下一個為大寫
-ᴄ	;ci
-#以下一個為大寫
-ᴅ	;di
-#以下一個為大寫
-ᴆ	;dt
-#以下一個為大寫
-ᴇ	;ei
 ᴈ	;zi
 ᴉ	;ik
 ##
 ᴉ	;iq
-#以下一個為大寫
-ᴊ	;ji
-#以下一個為大寫
-ᴋ	;ki
-#以下一個為大寫
-ᴌ	;lx
-#以下一個為大寫
-ᴍ	;mi
-#以下一個為大寫
-ᴎ	;ni
-##
-ᴎ	;nk
-#以下一個為大寫
-ᴏ	;oi
-#以下一個為大寫
-ᴐ	;jf
-##
-ᴐ	;ck
 ᴑ	;oq
 ᴒ	;cq
 ᴓ	;oxq
@@ -3127,8 +2181,6 @@ $	;sy
 ᴔ	;eqho
 ##
 ᴔ	;eqo
-#以下一個為大寫
-ᴕ	;uho
 ᴖ	;mf
 ##
 ᴖ	;mw
@@ -3139,31 +2191,9 @@ $	;sy
 ᴗ	;duw
 ##
 ᴗ	;dufh
-#以下一個為大寫
-ᴘ	;pi
-#以下一個為大寫
-ᴙ	;rk
-#以下一個為大寫
-ᴚ	;rq
-#以下一個為大寫
-ᴛ	;ti
-#以下一個為大寫
-ᴜ	;ui
 ᴝ	;uq
 ᴞ	;ubq
 ᴟ	;mq
-#以下一個為大寫
-ᴠ	;vi
-#以下一個為大寫
-ᴡ	;wi
-#以下一個為大寫
-ᴢ	;zi
-#以下一個為大寫
-#ᴣ	;zfg
-##
-ᴣ	;zf
-##
-#ᴣ	;zg
 ᴤ	;sk
 ##
 ᴤ	;jfcf
@@ -3178,76 +2208,6 @@ $	;sy
 ##
 ᴤ	;ckc
 ᴥ	;af
-#以下一個為大寫
-ᴦ	;gi
-#以下一個為大寫
-ᴧ	;li
-##
-ᴧ	;vk
-#以下一個為大寫
-ᴨ	;ri
-#以下一個為大寫
-ᴩ	;pi
-#以下一個為大寫
-ᴪ	;ui
-#以下一個為大寫
-ᴫ	;li
-##
-ᴫ	;jhi
-#以下一個為大寫
-ᴬ	;ah
-#以下一個為大寫
-ᴭ	;aheh
-##
-ᴭ	;aeh
-#以下一個為大寫
-ᴮ	;bh
-#以下一個為大寫
-ᴯ	;bth
-#以下一個為大寫
-ᴰ	;dh
-#以下一個為大寫
-ᴱ	;eh
-#以下一個為大寫
-ᴲ	;ekh
-##
-ᴲ	;eqh
-#以下一個為大寫
-ᴳ	;gh
-#以下一個為大寫
-ᴴ	;hh
-#以下一個為大寫
-ᴵ	;ih
-#以下一個為大寫
-ᴶ	;jh
-#以下一個為大寫
-ᴷ	;kh
-#以下一個為大寫
-ᴸ	;lh
-#以下一個為大寫
-ᴹ	;mh
-#以下一個為大寫
-ᴺ	;nh
-#以下一個為大寫
-ᴻ	;nh
-##
-ᴻ	;nkh
-#以下一個為大寫
-ᴼ	;oh
-#以下一個為大寫
-ᴽ	;uhoh
-##
-ᴽ	;uoh
-#以下一個為大寫
-ᴾ	;ph
-#以下一個為大寫
-ᴿ	;rh
-#以下一個為大寫
-ᵀ	;th
-#以下一個為大寫
-ᵁ	;uh
-#以下一個為大寫
-ᵂ	;wh
 ᵃ	;ah
 ᵄ	;aqh
 ᵅ	;ah
@@ -3333,16 +2293,10 @@ $	;sy
 ##
 ᵹ	;zfho
 ᵺ	;thx
-#以下一個為大寫
-ᵻ	;it
-##
-ᵻ	;tf
 ᵼ	;it
 ᵽ	;pt
-#以下一個為大寫
-ᵾ	;ut
 ᵿ	;wkt
-#Phonetic Extensions Supplement
+###@ Phonetic Extensions Supplement ###
 ᶀ	;bj
 ᶁ	;dj
 ᶂ	;fj
@@ -3397,19 +2351,11 @@ $	;sy
 ᶣ	;uh
 ᶤ	;ith
 ᶥ	;ih
-#以下一個為大寫
-ᶦ	;ih
-#以下一個為大寫
-ᶧ	;ith
-##
-ᶧ	;tfh
 ᶨ	;jgh
 ##
 ᶨ	;igh
 ᶩ	;lch
 ᶪ	;ljh
-#以下一個為大寫
-ᶫ	;lh
 ᶬ	;mjh
 ᶭ	;xfh
 ##
@@ -3427,8 +2373,6 @@ $	;sy
 ᶭ	;uuh
 ᶮ	;njh
 ᶯ	;nch
-#以下一個為大寫
-ᶰ	;nh
 ᶱ	;qh
 ᶲ	;fh
 ᶳ	;sch
@@ -3436,8 +2380,6 @@ $	;sy
 ᶵ	;tjh
 ᶶ	;uth
 ᶷ	;wkh
-#以下一個為大寫
-ᶸ	;uh
 ᶹ	;vfh
 ##
 ᶹ	;yh
@@ -3454,8 +2396,8 @@ $	;sy
 ##
 #ᶾ	;zgh
 ᶿ	;qh
-#####IPA Extensions結束#####
-###Spacing Modifier Letters開始###
+### IPA Extensions結束 ###
+###@ Spacing Modifier Letters開始 ###
 ##02b0~02bf
 ʰ	;hh
 ʱ	;hrh
@@ -3465,8 +2407,6 @@ $	;sy
 ʵ	;rrqh
 ##
 ʵ	;rqch
-#以下一個為大寫
-ʶ	;rkh
 ʷ	;wh
 ʸ	;yh
 ʹ	;pw
@@ -3688,8 +2628,8 @@ $	;sy
 ˿	;lwq
 ##
 ˿	;dlwq
-###Spacing Modifier Letters結束###
-######Combining Diacritical開始######
+### Spacing Modifier Letters結束 ###
+###@ Combining Diacritical開始 ###
 ##0300~030f
 ̀	';n
 ́	';p
@@ -3896,8 +2836,8 @@ $	;sy
 # ͯ	';x
 #以下一個為容錯碼
 ͯ	';xh
-######Combining Diacritical結束######
-##Superscripts and Subscripts開始
+### Combining Diacritical結束 ####
+###@ Superscripts and Subscripts開始 ###
 ⁱ	;ih
 ⁺	;tw
 ##
@@ -3957,9 +2897,162 @@ $	;sy
 ¹	;lfh
 ²	;rfh
 ³	;zfh
-##Superscripts and Subscripts結束
-########################
-#####Cyrillic總開始#####
+### Superscripts and Subscripts結束 ###
+#####@@@ 英文全形字庫 #####
+### 新增英文字母全形開始 ###
+############
+　	'jj
+　	''jj
+－	'ew
+#以下一個容錯碼
+###－	'iq
+．	'daw
+#以下一個容錯碼
+．	'aw
+，	'ddw
+#以下一個容錯碼
+，	'dw
+／	'pw
+／	'xw
+？	'jfda
+#以下三個容錯碼
+#？	'jyda
+##
+？	'jfyda
+##
+？	'jfkda
+！	'ida
+#以下兩個容錯碼
+！	'ik
+！	'ifk
+；	'awdw
+#以下一個容錯碼
+；	'awddw
+#；	'add
+：	'awaw
+#以下一個容錯碼
+：	'bwq
+#：	aha
+：	'awdaw
+～	'sw
+＇	'pw
+#以下兩個容錯碼
+#＇	'ih
+#＇	'if
+＂	'pwpw
+#以下一個容錯碼
+#＂	'ii
+### 大寫快速調出開始（一） ###
+Ａ	''a
+Ｂ	''b
+Ｃ	''c
+Ｄ	''d
+Ｅ	''e
+Ｆ	''f
+Ｇ	''g
+Ｈ	''h
+Ｉ	''i
+Ｊ	''j
+Ｋ	''k
+Ｌ	''l
+Ｍ	''m
+Ｎ	''n
+Ｏ	''o
+Ｐ	''p
+Ｑ	''q
+Ｒ	''r
+Ｓ	''s
+Ｔ	''t
+Ｕ	''u
+Ｖ	''v
+Ｗ	''w
+Ｘ	''x
+Ｙ	''y
+Ｚ	''z
+###大寫快速調出結束（一）####
+### 一般調出開始 ###
+ａ	'a
+ｂ	'b
+ｃ	'c
+ｄ	'd
+ｅ	'e
+ｆ	'f
+ｇ	'g
+ｈ	'h
+ｉ	'i
+ｊ	'j
+ｋ	'k
+ｌ	'l
+ｍ	'm
+ｎ	'n
+ｏ	'o
+ｐ	'p
+ｑ	'q
+ｒ	'r
+ｓ	's
+ｔ	't
+ｕ	'u
+ｖ	'v
+ｗ	'w
+ｘ	'x
+ｙ	'y
+ｚ	'z
+### 一般調出結束 ###
+###@ 類英文字母全形符號調出開始 ###
+￠	'cx
+##
+￠	'ci
+##
+￠	'cf
+￡	'lft
+￢	'gwk
+#以下兩個容錯碼
+#￢	'lq
+##￢		'gwq
+￣	'ew
+￤	'iwiw
+##
+#￤	'lwlw
+##
+#￤	'lwhlw
+##
+#￤	'lhl
+￥	'ytt
+￦	'wt
+＠	'at
+#以下三個容錯碼
+＠	'ao
+＠	'aho
+＠	'amo
+＾	'lw
+#
+#＾	'lh
+｀	'nw
+＿	'dew
+###＃	'
+＄	'si
+％	'owpwow
+#以下五個容錯碼
+％	'owxwow
+％	'opwo
+％	'oxwo
+％	'oxo
+％	'opo
+＆	'af
+##
+#＆	'bfk
+#以下三個容錯碼
+#＆	'bf
+#＆	'et
+#＆	'and
+＊	'jw
+＜	'vwq
+＞	'vwq
+### 類英文字母全形符號結束 ###
+##### 新增英文字母全形結束 #####
+#####@@@ Cyrillic總開始 #####
+ 	]jj
+ 	]]jj
 #大寫加速補碼
 #Cyrillic基本大寫
 Ѐ	]]en
@@ -4192,7 +3285,7 @@ $	;sy
 Ӻ	]]gjt
 Ӽ	]]xj
 Ӿ	]]xt
-#Cyrillic Supplement大寫
+###@ Cyrillic Supplement大寫 ###
 Ԁ	]]di
 Ԃ	]]du
 Ԅ	]]rfu
@@ -4243,7 +3336,7 @@ $	;sy
 Ԯ	]]jiy
 ##
 Ԯ	]]jhiy
-#Cyrillic Extended-B大寫
+###@ Cyrillic Extended-B大寫 ###
 Ꙁ	]]zj
 Ꙃ	]]ztj
 ##
@@ -4344,7 +3437,7 @@ $	;sy
 ##
 Ꚛ	]]omt
 #Cyrillic基本
-#Cyrillic基本小寫
+###@ Cyrillic基本小寫 ###
 а	]a
 б	]s
 в	]b
@@ -4589,238 +3682,7 @@ $	;sy
 ӻ	]gjt
 ӽ	]xj
 ӿ	]xt
-#Cyrillic基本大寫
-Ѐ	]en
-Ё	]eb
-Ђ	]tg
-Ѓ	]gp
-Є	]qk
-Ѕ	]si
-І	]ii
-Ї	]ib
-Ј	]ji
-Љ	]lhb
-##
-#Љ	]lb #201611太常撞碼，容錯碼去除
-##
-Љ	]jhb
-Њ	]hhb
-##
-#Њ	]hb
-##
-Њ	]ihb
-Ћ	]thh
-##
-Ћ	]thn
-##
-Ћ	]ht
-Ќ	]kp
-Ѝ	]nn
-##
-Ѝ	]nkn
-Ў	]yu
-Џ	]yf
-##
-Џ	]rky
-А	]a
-Б	]s
-В	]b
-Г	]g
-Д	]d
-Е	]e
-Ж	]j
-З	]z
-И	]n
-##
-И	]nk
-Й	]nu
-##
-Й	]nku
-К	]k
-Л	]l
-##
-Л	]jhi
-М	]m
-Н	]h
-О	]o
-П	]r
-Р	]p
-С	]c
-Т	]t
-У	]y
-Ф	]f
-Х	]x
-Ц	]v
-Ч	]u
-##
-Ч	]hq
-Ш	]w
-Щ	]wy
-Ъ	]br
-Ы	]bi
-##
-Ы	]bhi
-Ь	]bf
-##
-##Ь#bi
-Э	]q
-Ю	]i
-##
-Ю	]iho
-##
-#Ю	]io
-Я	]rk
-Ѡ	]wi
-Ѣ	]bt
-##
-Ѣ	]bft
-Ѥ	]ihqk
-##
-Ѥ	]iqk
-##
-Ѥ	]ihc
-Ѧ	]af
-##
-#Ѧ#ai
-Ѩ	]ihaf
-##
-Ѩ	]iaf
-##
-#Ѩ#ihai
-##
-#Ѩ#iai
-Ѫ	]vf
-Ѭ	]ihvf
-##
-Ѭ	]ivf
-#Ѯ	]zf
-##
-#Ѯ	]zsy
-##
-#Ѯ	]zys
-##
-Ѯ	]zfy
-##
-Ѯ	]zfv
-##
-Ѯ	]zcy
-##
-Ѯ	]zcv
-##
-Ѯ	]zyc
-##
-Ѯ	]zvc
-Ѱ	]ui
-Ѳ	]qi
-##
-Ѳ	]oz
-Ѵ	]vr
-Ѷ	]vrnn
-Ѹ	]ohy
-Ѻ	]of
-Ѽ	]wmd
-Ѿ	]wt
-Ҁ	]cfy
-##
-Ҁ	]cy
-##
-Ҁ	]cfk
-Ҋ	]nyu
-##
-Ҋ	]nkyu
-Ҍ	]bt
-##
-Ҍ	]bft
-Ҏ	]px
-Ґ	]gr
-Ғ	]gt
-Ҕ	]gg
-Җ	]jy
-Ҙ	]zj
-Қ	]ky
-Ҝ	]ki
-Ҟ	]kt
-Ҡ	]kr
-Ң	]hy
-Ҥ	]hr
-Ҧ	]rg
-Ҩ	]ff
-Ҫ	]cj
-Ҭ	]ty
-Ү	]yi
-Ұ	]yt
-Ҳ	]xy
-Ҵ	]thv
-##
-Ҵ	]vht
-Ҷ	]uy
-##
-Ҷ	]hqy
-Ҹ	]ui
-##
-Ҹ	]hqi
-Һ	]hi
-Ҽ	]ek
-Ҿ	]eky
-##
-Ҿ	]eyk
-Ӂ	]ju
-Ӄ	]kj
-Ӆ	]ly
-##
-Ӆ	]jiy
-##
-Ӆ	]jhiy
-Ӈ	]hj
-##
-Ӈ	]ihj
-Ӊ	]hy
-Ӌ	]uy
-##
-Ӌ	]hqy
-Ӎ	]my
-Ӏ	]ii
-Ӑ	]au
-Ӓ	]ab
-Ӕ	]ahe
-##
-##Ӕ###ae
-Ӗ	]eu
-Ә	]eq
-Ӛ	]eqb
-Ӝ	]jb
-Ӟ	]zb
-#Ӡ	]zg
-##
-#Ӡ	]zfg
-##
-Ӡ	]zf
-Ӣ	]ne
-##
-Ӣ	]nke
-Ӥ	]nb
-##
-Ӥ	]nkb
-Ӧ	]ob
-Ө	]qi
-Ӫ	]qb
-Ӭ	]qb
-Ӯ	]ye
-Ӱ	]yb
-Ӳ	]ypp
-Ӵ	]ub
-##
-Ӵ	]hqb
-Ӷ	]gy
-Ӹ	]bib
-##
-Ӹ	]bhib
-Ӻ	]gtj
-##
-Ӻ	]gjt
-Ӽ	]xj
-Ӿ	]xt
-#Cyrillic基本其他
+###Cyrillic基本其他
 ҂	]nf
 #u0483
 ҃	']s
@@ -4855,7 +3717,7 @@ $	;sy
 #u0489
 ҉	']wwwwwwww
 #Cyrillic Supplement
-#Cyrillic Supplement小寫
+###@ Cyrillic Supplement小寫 ###
 ԁ	]di
 ԃ	]du
 ԅ	]rfu
@@ -4906,61 +3768,10 @@ $	;sy
 ԯ	]jiy
 ##
 ԯ	]jhiy
-#Cyrillic Supplement大寫
-Ԁ	]di
-Ԃ	]du
-Ԅ	]rfu
-Ԇ	]rfy
-Ԉ	]lu
-##
-Ԉ	]jiu
-Ԋ	]hu
-Ԍ	]gi
-Ԏ	]tu
-Ԑ	]ei
-Ԓ	]lj
-##
-Ԓ	]jhj
-Ԕ	]jhx
-Ԗ	]phx
-##
-Ԗ	]phk
-Ԙ	]rkhe
-##
-Ԙ	]rke
-Ԛ	]qi
-Ԝ	]wi
-Ԟ	]kx
-Ԡ	]lg
-##
-Ԡ	]jig
-##
-Ԡ	]jhig
-Ԣ	]hg
-Ԥ	]ry
-Ԧ	]hy
-Ԩ	]hj
-Ԫ	]dhk
-Ԭ	]uhd
-##
-Ԭ	]dhu
-##
-Ԭ	]hqhd
-##
-Ԭ	]dhhq
-##
-Ԭ	]hqd
-##
-Ԭ	]dhq
-Ԯ	]ly
-##
-Ԯ	]jiy
-##
-Ԯ	]jhiy
 #Cyrillic Extended-A
 #Cyrillic Extended-A無法顯示
 #Cyrillic Extended-B
-#Cyrillic Extended-B小寫
+###@ Cyrillic Extended-B小寫 ###
 ꙁ	]zj
 ꙃ	]ztj
 ##
@@ -5061,107 +3872,6 @@ $	;sy
 ꚛ	]otf
 ##
 ꚛ	]omt
-#Cyrillic Extended-B大寫
-Ꙁ	]zj
-Ꙃ	]ztj
-##
-Ꙃ	]zjt
-Ꙅ	]sk
-Ꙇ	]ic
-##
-Ꙇ	]ii
-Ꙉ	]ykt
-##
-Ꙉ	]yft
-##
-Ꙉ	]nft
-Ꙍ	]wi
-Ꙏ	]br
-Ꙑ	]bri
-##
-Ꙑ	]brhi
-Ꙓ	]rhbt
-##
-Ꙓ	]ibt
-##
-Ꙓ	]rbt
-##
-Ꙓ	]ihbt
-Ꙕ	]ohi
-Ꙗ	]iha
-Ꙙ	]ade
-Ꙛ	]wf
-##
-#Ꙛ	]xf
-Ꙝ	]ihade
-##
-Ꙝ	]iade
-Ꙟ	]lf
-##
-##Ꙟ##ly
-Ꙡ	]vk
-Ꙣ	]dr
-Ꙥ	]lr
-##
-Ꙥ	]jir
-##
-Ꙥ	]jhir
-##
-Ꙥ	]jht
-Ꙧ	]mr
-Ꙩ	]oma
-Ꙫ	]omb
-Ꙭ	]rf
-##
-Ꙭ	]ohomb
-##
-Ꙭ	]oomb
-Ꚁ	]df
-Ꚃ	]si
-Ꚅ	]zhk
-Ꚇ	]xf
-##
-#Ꚇ	]wf
-##
-Ꚇ	]wy
-##
-Ꚇ	]whi
-##
-Ꚇ	]mqy
-##
-Ꚇ	]mrq
-##
-#Ꚇ	]mqhi
-##
-#Ꚇ	]mqi
-##
-Ꚇ	]uhu
-Ꚉ	]dj
-##
-Ꚉ	]dfj
-Ꚋ	]tg
-Ꚍ	]ti
-##
-Ꚍ	]tc
-Ꚏ	]rkj
-Ꚑ	]tc
-Ꚓ	]uht
-##
-Ꚓ	]thu
-##
-Ꚓ	]hqht
-##
-Ꚓ	]hqt
-##
-Ꚓ	]thhq
-##
-Ꚓ	]thq
-Ꚕ	]hr
-Ꚗ	]wj
-Ꚙ	]oho
-Ꚛ	]otf
-##
-Ꚛ	]omt
 #Cyrillic Extended-B其他
 Ꙋ	]qf
 ##
@@ -5275,7 +3985,7 @@ $	;sy
 ꚟ	']iqk
 ##
 ꚟ	']ihc
-#Cyrillic Extended-A (all combine)
+###@ Cyrillic Extended-A (all combine) ###
 ⷠ	']sh
 ⷡ	']bh
 ⷢ	']gh
@@ -5394,13 +4104,15 @@ $	;sy
 ⷿ	']ivf
 ##
 ⷿ	']ihvf
-#####Cyrillic總結束#####
+##### Cyrillic總結束 #####
 ##########################
-#######希臘字母總開始#########
-#基礎希臘字母
+#####@@@ 希臘字母總開始 #####
+ 	[jj
+ 	[[jj
+##基礎希臘字母
 #Greek and Coptic
 #大寫加快補碼
-#Greek and Coptic大寫
+###@ Greek and Coptic大寫 ###
 Ͱ	[[ih
 Ͳ	[[ti
 Ͷ	[[ni
@@ -5499,7 +4211,7 @@ $	;sy
 Ϻ	[[myc
 ##
 Ϻ	[[my
-#Greek Extended
+###@ Greek Extended ###
 Ἀ	[[ad
 Ἁ	[[aq
 Ἂ	[[adn
@@ -5692,7 +4404,7 @@ $	;sy
 Ώ	[[wp
 ῼ	[[wc
 
-#Greek and Coptic小寫
+###@ Greek and Coptic小寫 ###
 ͱ	[ih
 ͳ	[ti
 ͷ	[ni
@@ -5806,105 +4518,6 @@ $	;sy
 ϻ	[myc
 #
 ϻ	[my
-#Greek and Coptic大寫
-Ͱ	[ih
-Ͳ	[ti
-Ͷ	[ni
-Ά	[ap
-Ϳ	[ji
-Έ	[ep
-Ή	[hp
-Ί	[ip
-Ό	[op
-Ύ	[yp
-Ώ	[wp
-Α	[a
-Β	[b
-Γ	[g
-Δ	[d
-Ε	[e
-Ζ	[z
-Η	[h
-Θ	[q
-Ι	[i
-Κ	[k
-Λ	[l
-Μ	[m
-Ν	[n
-Ξ	[j
-Ο	[o
-Π	[r
-Ρ	[p
-Σ	[s
-Τ	[t
-Υ	[y
-Φ	[f
-Χ	[x
-Ψ	[u
-Ω	[w
-Ϊ	[ib
-Ϋ	[yb
-Ϗ	[ky
-#
-Ϗ	[kj
-ϒ	[yi
-ϓ	[yp
-ϔ	[yb
-ϕ	[fi
-Ϙ	[oy
-Ϛ	[ci
-#
-Ϛ	[cfy
-#
-Ϛ	[cy
-#
-Ϛ	[cfk
-Ϝ	[fi
-#Ϟ	[nf
-##
-Ϟ	[kf
-##
-Ϟ	[kw
-Ϡ	[zf
-Ϣ	[wj
-Ϥ	[qf
-Ϧ	[bf
-#
-Ϧ	[gf
-#
-Ϧ	[igj
-#
-Ϧ	[ig
-Ϩ	[sk
-Ϫ	[dy
-#
-##Ϫ#yd
-Ϭ	[si
-Ϯ	[tf
-#
-Ϯ	[it
-Ͻ	[jf
-#
-Ͻ	[ck
-Ͼ	[cma
-Ͽ	[jfma
-#
-Ͽ	[ckma
-Ϸ	[lf
-#
-Ϸ	[bhp
-#
-Ϸ	[iho
-#
-Ϸ	[lho
-Ϲ	[ci
-Ϻ	[mi
-#
-Ϻ	[mf
-#
-Ϻ	[myc
-#
-Ϻ	[my
 #Greek and Coptic其他
 #u0374
 ʹ	[pw
@@ -5924,7 +4537,7 @@ $	;sy
 ϵ	[qk
 ϶	[qi
 ϼ	[pt
-#Greek Extended
+###@ Greek Extended ###
 ἀ	[ad
 ἁ	[aq
 ἂ	[adn
@@ -5937,30 +4550,12 @@ $	;sy
 ἇ	[asq
 #
 ἇ	[amq
-Ἀ	[ad
-Ἁ	[aq
-Ἂ	[adn
-Ἃ	[aqn
-Ἄ	[adp
-Ἅ	[aqp
-Ἆ	[asd
-#
-Ἆ	[amd
-Ἇ	[asq
-#
-Ἇ	[amq
 ἐ	[ed
 ἑ	[eq
 ἒ	[edn
 ἓ	[eqn
 ἔ	[edp
 ἕ	[eqp
-Ἐ	[ed
-Ἑ	[eq
-Ἒ	[edn
-Ἓ	[eqn
-Ἔ	[edp
-Ἕ	[eqp
 ἠ	[hd
 #
 ἠ	[nyd
@@ -5993,18 +4588,6 @@ $	;sy
 ἧ	[hmq
 #
 ἧ	[nymq
-Ἠ	[hd
-Ἡ	[hq
-Ἢ	[hdn
-Ἣ	[hqn
-Ἤ	[hdp
-Ἥ	[hqp
-Ἦ	[hsd
-#
-Ἦ	[hmd
-Ἧ	[hsq
-#
-Ἧ	[hmq
 ἰ	[id
 ἱ	[iq
 ἲ	[idn
@@ -6017,30 +4600,12 @@ $	;sy
 ἷ	[isq
 #
 ἷ	[imq
-Ἰ	[id
-Ἱ	[iq
-Ἲ	[idn
-Ἳ	[iqn
-Ἴ	[idp
-Ἵ	[iqp
-Ἶ	[isd
-#
-Ἶ	[imd
-Ἷ	[isq
-#
-Ἷ	[imq
 ὀ	[od
 ὁ	[oq
 ὂ	[odn
 ὃ	[oqn
 ὄ	[odp
 ὅ	[oqp
-Ὀ	[od
-Ὁ	[oq
-Ὂ	[odn
-Ὃ	[oqn
-Ὄ	[odp
-Ὅ	[oqp
 ὐ	[yd
 ὑ	[yq
 ὒ	[ydn
@@ -6053,12 +4618,6 @@ $	;sy
 ὗ	[ysq
 #
 ὗ	[ymq
-Ὑ	[yq
-Ὓ	[yqn
-Ὕ	[yqp
-Ὗ	[ysq
-#
-Ὗ	[ymq
 ὠ	[wd
 ὡ	[wq
 ὢ	[wdn
@@ -6071,18 +4630,6 @@ $	;sy
 ὧ	[wsq
 #
 ὧ	[wmq
-Ὠ	[wd
-Ὡ	[wq
-Ὢ	[wdn
-Ὣ	[wqn
-Ὤ	[wdp
-Ὥ	[wqp
-Ὦ	[wsd
-#
-Ὦ	[wmd
-Ὧ	[wsq
-#
-Ὧ	[wmq
 ὰ	[an
 #u1f71
 ά	[ap
@@ -6140,38 +4687,6 @@ $	;sy
 ᾇ	[acmq
 #
 ᾇ	[amqc
-ᾈ	[acd
-#
-ᾈ	[adc
-ᾉ	[acq
-#
-ᾉ	[aqc
-ᾊ	[acdn
-#
-ᾊ	[adnc
-ᾋ	[acqn
-#
-ᾋ	[aqnc
-ᾌ	[acdp
-#
-ᾌ	[adpc
-ᾍ	[acqp
-#
-ᾍ	[aqpc
-ᾎ	[acsd
-#
-ᾎ	[asdc
-#
-ᾎ	[acmd
-#
-ᾎ	[amdc
-ᾏ	[acsq
-#
-ᾏ	[asqc
-#
-ᾏ	[acmq
-#
-ᾏ	[amqc
 ᾐ	[hcd
 #
 ᾐ	[hdc
@@ -6264,38 +4779,6 @@ $	;sy
 ᾗ	[ncymq
 #
 ᾗ	[nymqc
-ᾘ	[hcd
-#
-ᾘ	[hdc
-ᾙ	[hcq
-#
-ᾙ	[hqc
-ᾚ	[hcdn
-#
-ᾚ	[hdnc
-ᾛ	[hcqn
-#
-ᾛ	[hqnc
-ᾜ	[hcdp
-#
-ᾜ	[hdpc
-ᾝ	[hcqp
-#
-ᾝ	[hqpc
-ᾞ	[hcsd
-#
-ᾞ	[hsdc
-#
-ᾞ	[hcmd
-#
-ᾞ	[hmdc
-ᾟ	[hcsq
-#
-ᾟ	[hsqc
-#
-ᾟ	[hcmq
-#
-ᾟ	[hmqc
 ᾠ	[wcd
 #
 ᾠ	[wdc
@@ -6328,38 +4811,6 @@ $	;sy
 ᾧ	[wcmq
 #
 ᾧ	[wmqc
-ᾨ	[wcd
-#
-ᾨ	[wdc
-ᾩ	[wcq
-#
-ᾩ	[wqc
-ᾪ	[wcdn
-#
-ᾪ	[wdnc
-ᾫ	[wcqn
-#
-ᾫ	[wqnc
-ᾬ	[wcdp
-#
-ᾬ	[wdpc
-ᾭ	[wcqp
-#
-ᾭ	[wqpc
-ᾮ	[wcsd
-#
-ᾮ	[wsdc
-#
-ᾮ	[wcmd
-#
-ᾮ	[wmdc
-ᾯ	[wcsq
-#
-ᾯ	[wsqc
-#
-ᾯ	[wcmq
-#
-ᾯ	[wmqc
 ᾰ	[au
 ᾱ	[ae
 ᾲ	[acn
@@ -6379,11 +4830,6 @@ $	;sy
 ᾷ	[acm
 #
 ᾷ	[amc
-Ᾰ	[au
-Ᾱ	[ae
-Ὰ	[an
-Ά	[ap
-ᾼ	[ac
 ᾽	[dw
 #u1FBE
 #ι	[[c
@@ -6452,13 +4898,6 @@ $	;sy
 ῇ	[ncym
 #
 ῇ	[nymc
-Ὲ	[en
-#uu1fc9
-Έ	[ep
-Ὴ	[hn
-#u1fcb
-Ή	[hp
-ῌ	[hc
 ῍	[dwnw
 ῎	[dwpw
 ῏	[swdw
@@ -6475,11 +4914,6 @@ $	;sy
 ῗ	[isb
 #
 ῗ	[imb
-Ῐ	[iu
-Ῑ	[ie
-Ὶ	[in
-#u1fdb
-Ί	[ip
 ῝	[qwnw
 ῞	[qwpw
 ῟	[swqw
@@ -6498,12 +4932,6 @@ $	;sy
 ῧ	[ysb
 #
 ῧ	[ymb
-Ῠ	[yu
-Ῡ	[ye
-Ὺ	[yn
-#u1feb
-Ύ	[yp
-Ῥ	[pq
 ῭	[nwbw
 #u1fee
 ΅	[pwbw
@@ -6525,12 +4953,6 @@ $	;sy
 ῷ	[wcm
 #
 ῷ	[wmc
-Ὸ	[on
-#u1ff9
-Ό	[op
-Ὼ	[wn
-Ώ	[wp
-ῼ	[wc
 #u1ffd
 ´	[pw
-#######希臘字母總結束#########
+#####@@@ 希臘字母總結束 #####
