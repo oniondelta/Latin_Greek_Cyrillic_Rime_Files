@@ -1,6 +1,7 @@
-# Rime schema 中州輸入法的字碼檔
+# Rime dictionary
 # encoding: utf-8
-# 《全形_增補》
+# 《英數全形（洋蔥形碼鍵位）碼表_增補》
+# 『洋蔥』製作
 ---
 name: fsword
 version: "202001"
@@ -71,13 +72,13 @@ columns:
 ！	ifk
 ；	awdw
 ##
-；	awdd
+；	awddw
 #；	add
 ：	awaw
 ##
 ：	bwq
 #：	aha
-：	awda
+：	awdaw
 ～	sw
 ＇	pw
 ##
