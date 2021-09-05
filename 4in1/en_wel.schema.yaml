@@ -4,7 +4,7 @@
 schema:
   schema_id: en_wel
   name: ✪EuropeLetter-Onion✪ #✪西歐字母-洋蔥版✪
-  version: "202106"
+  version: "202109"
   author:
     - 『洋蔥-Onion』
   description: |
@@ -41,6 +41,7 @@ engine:
     - fallback_segmentor
   filters:
     - simplifier@back_mark
+    - reverse_lookup_filter@top_reverse_lookup
     - uniquifier
   translators:
     - punct_translator
@@ -65,16 +66,14 @@ speller:
   alphabet: "abcdefghijklmnopqrstuvwxyz';[]/"
   initials: "';[]"
   algebra:
-    - xform|\/|P|
-    - derive/^;;?([a-z]+)$/;;;$1/
-    - derive/^;;([a-z]+)$/;$1P/
-    - derive/^''?([a-z]+)$/'''$1/
-    - derive/^''([a-z]+)$/'$1P/
-    - derive/^\[\[?([a-z]+)$/\[\[\[$1/
-    - derive/^\[\[([a-z]+)$/\[$1P/
-    - derive/^\]\]?([a-z]+)$/\]\]\]$1/
-    - derive/^\]\]([a-z]+)$/\]$1P/
-    - xform|P|\/|
+    - derive|^;;?([a-z]+)$|;;;$1|
+    - derive|^;;([a-z]+)$|;$1/|
+    - derive|^''?([a-z]+)$|'''$1|
+    - derive|^''([a-z]+)$|'$1/|
+    - derive|^[[][[]?([a-z]+)$|[[[$1|
+    - derive|^[[][[]([a-z]+)$|[$1/|
+    - derive|^[]][]]?([a-z]+)$|]]]$1|
+    - derive|^[]][]]([a-z]+)$|]$1/|
 
 translator:
   dictionary: en_wel
@@ -82,26 +81,24 @@ translator:
   enable_sentence: false
   enable_completion: false
   preedit_format:
-    - "xlit|/|@|"
-    - xform|['][;]|《Latin-CDM》|
-    - xform|['][]]|《Cyrillic-CDM》|
-    - xform|[[]([a-z])@|《Greek-U》$1@| #
+    - xform|';|《Latin-CDM》|
+    - xform|'[]]|《Cyrillic-CDM》|
+    - xform|[[]([a-z])[/]|《Greek-U》$1/| #
     - xform|[[]{3}|《Greek》|
     - xform|[[]{2}|《Greek-U》|
     - xform|[[]|《Greek-L》|
-    - xform|[]]([a-z])@|《Cyrillic-U》$1@| #
+    - xform|[]]([a-z])[/]|《Cyrillic-U》$1/| #
     - xform|[]]{3}|《Cyrillic》|
     - xform|[]]{2}|《Cyrillic-U》|
     - xform|[]]|《Cyrillic-L》|
-    - xform|[;]([a-z])@|《Latin-U》$1@| #
-    - xform|[;]{3}|《Latin》|
-    - xform|[;]{2}|《Latin-U》|
-    - xform|[;]|《Latin-L》|
-    - xform|[']([a-z])@|《Fullwidth-U》$1@| #
-    - xform|[']{3}|《Fullwidth》|
-    - xform|[']{2}|《Fullwidth-U》|
-    - xform|[']|《Fullwidth-L》|
-    - "xlit|@|/|"
+    - xform|;([a-z])[/]|《Latin-U》$1/| #
+    - xform|;{3}|《Latin》|
+    - xform|;{2}|《Latin-U》|
+    - xform|;|《Latin-L》|
+    - xform|'([a-z])[/]|《Fullwidth-U》$1/| #
+    - xform|'{3}|《Fullwidth》|
+    - xform|'{2}|《Fullwidth-U》|
+    - xform|'|《Fullwidth-L》|
 
 top_reverse_lookup:
   tags: [ abc ]
