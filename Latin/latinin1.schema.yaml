@@ -4,7 +4,7 @@
 schema:
   schema_id: latinin1
   name: ❃拉丁 in 1❃
-  version: "202102"
+  version: "202109"
   author:
     - 『洋蔥』
   description: |
@@ -52,7 +52,7 @@ back_mark:
   option_name: back_mark
   show_in_comment: true
   tags: [ abc ]
-  tips: char #all
+  tips: char
   comment_format:
     - xform/^/  /
     - xform/@/ /
@@ -62,6 +62,7 @@ speller:
   delimiter: " "
   algebra:
     - derive|^([a-z]+)[;/]$|$1| #精簡尾綴「;」「/」
+    - derive/^\|$/ /
 
 translator:
   dictionary: latinin1.extended
@@ -109,10 +110,10 @@ punctuator:
     '<' : { commit: "<" }
     '>' : { commit: ">" }
     '?' : { commit: "?" }
-    '/' : [ '/' ] #{ commit: "/" }
+    '/' : [ '/' ]
     ':' : { commit: ":" }
     ';' : [ ';' ]
-    "'" : { commit: "'" } #[ "'" ]
+    "'" : { commit: "'" }
     '"' : { commit: "\"" }
     '\\' : { commit: "\\" }
     '|' : { commit: "|" }
@@ -139,6 +140,7 @@ punctuator:
 key_binder:
   import_preset: default
   bindings:
+### 避 RIME 原設定鍵位衝突 ###
     - {accept: comma, send: comma, when: has_menu}
     - {accept: comma, send: comma, when: paging}
     - {accept: period, send: period, when: has_menu}
@@ -151,9 +153,10 @@ key_binder:
     - {accept: Left, send: Page_Up, when: paging}
     - {accept: Right, send: Page_Down, when: paging}
 ######################
-    - {accept: Tab, send: Shift+Left, when: paging} #於選單列選字時，回復到輸入列（避免有時回復不了，故增加）。
-    - {accept: Shift+space, send: Page_Down, when: has_menu} #選字時可用「Shift」+「空白鍵」翻頁。
-    - {accept: Shift+Tab, send: Page_Up, when: paging} #選字時可用「Shift」+「tab」翻頁。
+    - {accept: Shift+Tab, send: Page_Up, when: paging}
+    - {accept: Shift+space, send: Page_Down, when: has_menu}
+######################
+    - {accept: Tab, send: Shift+Left, when: paging}
 ######################
     - {accept: Return, send: space, when: has_menu} #return,enter直出
 #    - {accept: space, send: space, when: has_menu} # 非空碼時，空白還是空白
