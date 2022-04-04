@@ -4,7 +4,7 @@
 schema:
   schema_id: en_wel
   name: ✪EuropeLetter-Onion✪ #✪西歐字母-洋蔥版✪
-  version: "202109"
+  version: "202204"
   author:
     - 『洋蔥-Onion』
   description: |
@@ -127,6 +127,7 @@ key_binder:
     - {accept: equal, send: equal, when: has_menu}
     - {accept: equal, send: equal, when: paging}
     - {accept: Return, send: space, when: has_menu} #return,enter直出
+    - {accept: KP_Enter, send: space, when: has_menu}
     - {accept: Left, send: Page_Up, when: paging}
     - {accept: Right, send: Page_Down, when: paging}
 
