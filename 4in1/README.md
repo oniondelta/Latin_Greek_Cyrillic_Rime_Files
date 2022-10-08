@@ -6,10 +6,6 @@
 
 加上〔啟始鍵〕就可打出特殊字母符號
 
-拉丁字母包含：IPA Extensions、Phonetic、Spacing Modifier Letters 進格修飾符號…等
-
-所有小寫包含無法被歸類為大小寫或符號字符
-
 ## 拉丁字母（含音標）
 
 - 「 ; 」 + 字母 ⇒〔拉丁- 小寫〕
