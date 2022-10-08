@@ -11,7 +11,7 @@
 
 - https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/blob/main/README_introduction.md
 
-## 解說 2 (Description2)：
+## 解說 2 (Description2)
 
 - https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/blob/main/README_explanation.md
 
