@@ -8,9 +8,9 @@
 
 ## RIME 設定檔
 
-以下〔啟始鍵〕只針對純西歐字母方案（檔案：en_wel.schema.yaml，方案名：✪EuropeLetter-Onion✪ ），注音或拼音內嵌的西歐字母方案〔啟始鍵〕則不相同，有些則使用〔後綴〕。
-
 純西歐字母方案：https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/tree/main/4in1 ，其 [opencc 檔](https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/tree/main/opencc) 
+
+以下〔啟始鍵〕只針對純西歐字母方案（檔案：en_wel.schema.yaml，方案名：✪EuropeLetter-Onion✪ ），注音或拼音內嵌的西歐字母方案〔啟始鍵〕則不相同，有些則使用〔後綴〕。
 
 - 「 ; 」 + 字母 ⇒〔拉丁- 小寫〕
 
@@ -34,9 +34,9 @@
 
 ## cin 檔，用《香草輸入法》可匯入打字！
 
-cin 為舊版，有些編碼會和這邊 rime 方案不同
-
 cin 檔：https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/tree/main/cin
+
+cin 為舊版，有些編碼會和 rime 方案不同
 
 - 後綴「 ; 」大寫。
 
