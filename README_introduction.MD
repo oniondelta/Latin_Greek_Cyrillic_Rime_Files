@@ -18,10 +18,6 @@ https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/tree/main/4in1
 
 - 「 ' 」「 ; 」 + 字母 ⇒〔Combining Diacritical Marks 組合字符〕
 
-- 「 ' 」 + 字母⇒〔全形- 小寫〕
-
-- 「 ' 」「 ' 」 +字母 ⇒〔全形 - 大寫〕
-
 - 「 \] 」 + 字母 ⇒〔Cyrillic 西里爾- 小寫〕
 
 - 「 \] 」「 \] 」 + 字母 ⇒〔Cyrillic 西里爾 - 大寫〕
@@ -31,6 +27,10 @@ https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/tree/main/4in1
 - 「 \[ 」 + 字母 ⇒〔Greek 希臘文- 小寫〕
 
 - 「 \[ 」「 \[ 」 + 字母 ⇒〔Greek 希臘文 - 大寫〕
+
+- 「 ' 」 + 字母⇒〔全形- 小寫〕
+
+- 「 ' 」「 ' 」 +字母 ⇒〔全形 - 大寫〕
 
 ## cin 檔，用《香草輸入法》可匯入打字！
 
