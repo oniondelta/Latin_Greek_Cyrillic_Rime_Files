@@ -9,11 +9,11 @@
 
 ## 解說 1 (Description1)：
 
-- http://deltazone.pixnet.net/blog/post/257821192
+- https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/blob/main/README_introduction.md
 
 ## 解說 2 (Description2)：
 
-- http://deltazone.pixnet.net/blog/post/334678330
+- https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/blob/main/README_explanation.md
 
 ## 說明：
 - Latin 和 4in1 須用到 opencc 內檔案，置入 Rime 中部署才完整。
