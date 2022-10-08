@@ -3,21 +3,33 @@
 #### ※ 請勿使用於商業營利相關行為
 #### ※ Commercial use is prohibited
 
-## 簡介
+## 方案簡介
 
-- 可打出 Unicode 拉丁語系字母，法文、德文、捷克文、越南文…等。如：(ß, å, ó, ằ, Ᵹ)
+- 4in1
 
-- 可打出 Unicode 所有音標，IPA國際音標、DJ音標、KK音標…等。如：( ː , ɔ, ǝ, ʒ, ʤ, ʥ, ŋ, ð, a͡e)
+  - 匯集以下，其所有字母皆可打出
 
-- 可打出 Unicode 西里爾語系字母，俄文…等。如：(д, П, Ж )
+- Latin
 
-- 可打出 Unicode 希臘語系字母，希臘文…等。如：(Δ, π, ε )
+  - Unicode 拉丁語系字母，法文、德文、捷克文、越南文…等。如：(ß, å, ó, ằ, Ᵹ)
 
-## 解說 1 (Description1)
+  - Unicode 所有音標，IPA國際音標、DJ音標、KK音標…等。如：( ː , ɔ, ǝ, ʒ, ʤ, ʥ, ŋ, ð, a͡e)
+
+- Cyrillic
+
+  - Unicode 西里爾語系字母，俄文…等。如：(д, П, Ж )
+
+- Greek
+
+  - Unicode 希臘語系字母，希臘文…等。如：(Δ, π, ε )
+
+- Fullshape
+
+  - 全形 26 個字母和相關全形符號
+
+## 詳細解說 (Description)
 
 - https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/blob/main/README_introduction.md
-
-## 解說 2 (Description2)
 
 - https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/blob/main/README_explanation.md
 
