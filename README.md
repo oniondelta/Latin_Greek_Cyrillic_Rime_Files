@@ -43,8 +43,8 @@
 
 ## 編碼說明
 
-![介紹1](https://raw.githubusercontent.com/oniondelta/latin-greek-cyrillic-rime/master/latin-greek-cyrillic-2020_cht-1.jpg)
-![介紹2](https://raw.githubusercontent.com/oniondelta/latin-greek-cyrillic-rime/master/latin-greek-cyrillic-2020_cht-2.jpg)
+![介紹1](https://raw.githubusercontent.com/oniondelta/latin-greek-cyrillic-rime/main/latin-greek-cyrillic-2020_cht-1.jpg)
+![介紹2](https://raw.githubusercontent.com/oniondelta/latin-greek-cyrillic-rime/main/latin-greek-cyrillic-2020_cht-2.jpg)
 
 ## 贊助 Donate
 
