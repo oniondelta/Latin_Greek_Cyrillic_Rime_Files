@@ -33,10 +33,6 @@
 
 - https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/blob/main/README_explanation.md
 
-## 部落格
-
-- http://deltazone.pixnet.net/blog/post/334655596
-
 ## 備註
 
 - Latin 和 4in1 會用到 opencc 內檔案，需置入。
