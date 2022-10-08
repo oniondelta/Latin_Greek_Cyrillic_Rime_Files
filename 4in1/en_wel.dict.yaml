@@ -4,7 +4,7 @@
 # 『洋蔥』製作
 ---
 name: en_wel
-version: "202106"
+version: "202210"
 sort: original #by_weight
 use_preset_vocabulary: false
 import_tables:
@@ -1805,9 +1805,10 @@ $	;sy
 ꬶ	;gg
 ꬷ	;lz
 ꬸ	;lzz
-ꬹ	;lma
+ꬹ	;lo
+#ꬹ	;lma
 ##
-ꬹ	;lmo
+#ꬹ	;lmo
 ꬺ	;mg
 ꬻ	;ng
 ꬼ	;ng
