@@ -12,6 +12,8 @@
 
 以下〔啟始鍵〕只針對純西歐字母方案（檔案：en_wel.schema.yaml，方案名：✪EuropeLetter-Onion✪ ），注音或拼音內嵌的西歐字母方案〔啟始鍵〕則不相同，有些則使用〔後綴〕。
 
+小寫包含無法被歸類為大小寫和符號字符；拉丁字母包含：IPA Extensions、Phonetic、Spacing Modifier Letters 進格修飾符號…等
+
 - 「 ; 」 + 字母 ⇒〔拉丁- 小寫〕
 
 - 「 ; 」「 ; 」 + 字母 ⇒〔拉丁 - 大寫〕
