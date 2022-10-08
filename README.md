@@ -3,9 +3,15 @@
 #### ※ 請勿使用於商業營利相關行為
 #### ※ Commercial use is prohibited
 
-## 部落格方案連結 (Blog)
+## 簡介
 
-- http://deltazone.pixnet.net/blog/post/334655596
+- 可打出Unicode拉丁語系字母（法文、德文、捷克文、越南文…等）！如：(ß, å, ó, ằ, Ᵹ)
+
+- 可打出Unicode所有音標（IPA國際音標、DJ音標、KK音標…等）！如：( ː , ɔ, ǝ, ʒ, ʤ, ʥ, ŋ, ð, a͡e)
+
+- 可打出Unicode西里爾語系字母（俄文…等）！如：(д, П, Ж )
+
+- 可打出Unicode希臘語系字母（希臘…等）！如：(Δ, π, ε )
 
 ## 解說 1 (Description1)
 
@@ -14,6 +20,10 @@
 ## 解說 2 (Description2)
 
 - https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/blob/main/README_explanation.md
+
+## 部落格
+
+- http://deltazone.pixnet.net/blog/post/334655596
 
 ## 備註
 
