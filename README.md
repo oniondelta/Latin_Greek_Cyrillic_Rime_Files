@@ -39,7 +39,7 @@
 
 ## 備註
 
-- Latin 和 4in1 須用到 opencc 內檔案，置入 Rime 中部署才完整。
+- Latin 和 4in1 會用到 opencc 內檔案，需置入。
 
 ## 編碼說明
 
