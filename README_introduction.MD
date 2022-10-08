@@ -10,7 +10,7 @@
 
 以下〔啟始鍵〕只針對純西歐字母方案（檔案：en_wel.schema.yaml，方案名：✪EuropeLetter-Onion✪ ），注音或拼音內嵌的西歐字母方案〔啟始鍵〕則不相同，有些則使用〔後綴〕。
 
-純西歐字母方案：https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/tree/main/4in1
+純西歐字母方案：https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/tree/main/4in1 ，其 [opencc 檔](https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/tree/main/opencc) 
 
 - 「 ; 」 + 字母 ⇒〔拉丁- 小寫〕
 
