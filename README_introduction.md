@@ -53,7 +53,7 @@ cin 為舊版，有些編碼會和 rime 方案不同
 ![介紹1](https://raw.githubusercontent.com/oniondelta/latin-greek-cyrillic-rime/master/latin-greek-cyrillic-2020_cht-1.jpg)
 ![介紹2](https://raw.githubusercontent.com/oniondelta/latin-greek-cyrillic-rime/master/latin-greek-cyrillic-2020_cht-2.jpg)
 
-## 贊助 Donate：
+## 贊助 Donate
 
 從第一個方案上傳已持續更新五年以上！方案從頭到尾大改、新創、新增非常多功能！且做了許多圖文說明！花了族繁不及備載的心力！
 
