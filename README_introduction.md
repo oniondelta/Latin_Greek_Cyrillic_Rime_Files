@@ -34,7 +34,7 @@
 
 - 「 ' 」「 ' 」 +字母 ⇒〔全形 - 大寫〕
 
-## cin 檔，用《香草輸入法》可匯入打字！
+## 用《香草輸入法》可匯入 cin 檔打字！
 
 cin 檔：https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/tree/main/cin
 
