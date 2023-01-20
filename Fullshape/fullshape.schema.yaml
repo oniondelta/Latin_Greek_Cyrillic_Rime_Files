@@ -4,7 +4,7 @@
 schema:
   schema_id: fullshape
   name: ❃全形輸出❃
-  version: "202204"
+  version: "202301"
   author:
     - 『洋蔥』
   description: |
@@ -15,6 +15,7 @@ switches:
     reset: 0
     states: [ 中文, 英文 ]
   - name: full_shape
+    reset: 1
     states: [ 半形, 全形 ]
 
 engine: 

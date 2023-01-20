@@ -4,7 +4,7 @@
 schema:
   schema_id: en_wel
   name: ✪EuropeLetter-Onion✪ #✪西歐字母-洋蔥版✪
-  version: "202204"
+  version: "202301"
   author:
     - 『洋蔥-Onion』
   description: |
@@ -17,6 +17,7 @@ switches:
     reset: 0
     states: [ E-Letter, en] #[ 西歐, 純英 ]
   - name: full_shape
+    reset: 0
     states: [ Halfwidth, Fullwidth] #[ 半形, 全形 ]
   - name: back_mark
     reset: 0
