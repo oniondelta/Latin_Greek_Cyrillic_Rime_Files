@@ -45,9 +45,6 @@ engine:
     - punct_translator
     - script_translator
 
-menu:
-  alternative_select_keys: "1234567890"
-
 back_mark:
   opencc_config: back_mark.json
   option_name: back_mark
@@ -57,6 +54,9 @@ back_mark:
   comment_format:
     - xform/^/  /
     - xform/@/ /
+
+menu:
+  alternative_select_keys: "1234567890"
 
 speller:
   alphabet: "abcdefghijklmnopqrstuvwxyz,.-;/"
