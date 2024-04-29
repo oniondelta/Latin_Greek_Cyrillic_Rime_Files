@@ -4,7 +4,7 @@
 schema:
   schema_id: latinin1
   name: ❃拉丁 in 1❃
-  version: "202301"
+  version: "202404"
   author:
     - 『洋蔥』
   description: |
@@ -67,9 +67,9 @@ speller:
 
 translator:
   dictionary: latinin1.extended
-  enable_user_dict: true
-  enable_sentence: false
+  enable_charset_filter: false
   enable_completion: false
+  enable_user_dict: true
   disable_user_dict_for_patterns:
     - ^[a-z]$
   preedit_format:

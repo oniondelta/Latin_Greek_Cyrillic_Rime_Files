@@ -4,7 +4,7 @@
 schema:
   schema_id: en_wel
   name: ✪EuropeLetter-Onion✪ #✪西歐字母-洋蔥版✪
-  version: "202301"
+  version: "202404"
   author:
     - 『洋蔥-Onion』
   description: |
@@ -78,9 +78,13 @@ speller:
 
 translator:
   dictionary: en_wel
-  enable_user_dict: true
+  enable_charset_filter: false
+  enable_encoder: false
+  # encode_commit_history: false
   enable_sentence: false
   enable_completion: false
+  # sentence_over_completion: false
+  enable_user_dict: true
   preedit_format:
     - xform|';|《Latin-CDM》|
     - xform|'[]]|《Cyrillic-CDM》|
