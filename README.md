@@ -37,7 +37,7 @@
 
 - [IPA 音標編碼](https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/blob/main/README_IPA_code.md)
 
-- [KK / DJ / IPA 音標編碼](https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/blob/main/README_IPA_code.md)
+- [KK / DJ / IPA 音標編碼](https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/blob/main/README_KK-DJ-IPA_code.md)
 
 ## 備註
 
