@@ -5,53 +5,53 @@
 -  (;;)→ 大寫　 (';)→ 組合附加符號
 
 
-## 『 母音/元音 』
-| 　 | 前 | 央 | 後 |
+## 『 母音 / 元音 』
+| 　 | 前 | 中央 | 後 |
 |:-|:-|:-|:-|
 | 閉　 | i (;i)　y (;y) | ɨ (;it)　ʉ (;ut) | ɯ (;mq)　u (;u) |
 | 次閉 | ɪ (;;ii)　ʏ (;;yi) | 　 | ʊ (;wk) |
-| 半閉 | e (;e)　ø (;ox) | ɘ (;ek) ɵ (;qi) | ɤ (;vo/;yo/;oy)　o (;o) |
+| 半閉 | e (;e)　ø (;ox) | ɘ (;ek) ɵ (;qi) | ɤ (;vo / ;yo / ;oy)　o (;o) |
 | 中　 | 　 | ə (;eq) | 　 |
-| 半開 | ɛ (;ei)　œ (;ohe) | ɜ (;zi)　ɞ (;bf) | ʌ (;li/;vk)　ɔ (;jf/;ck) |
+| 半開 | ɛ (;ei)　œ (;ohe) | ɜ (;zi)　ɞ (;bf) | ʌ (;li / ;vk)　ɔ (;jf / ;ck) |
 | 次開 | æ (;ahe) | ɐ (;aq) | 　 |
 | 開　 | a (;a)　ɶ (;;ohe) | 　 | ɑ (;ai)　ɒ (;aq) |
 
 
-## 『 子音/輔音（肺部氣流音） 』
+## 『 子音 / 輔音（肺部氣流音） 』
 
-- 塞音：p (;p)　b (;b)　t (;t)　d (;d)　ʈ (;ti/;tc)　ɖ (;dc/;dt)　c (;c)　ɟ (;jt)　k (;k)　ɡ (;gi)　q (;q)　ɢ (;;gi)　ʔ (;jfy/;jy/;jfk)
+- 塞音：p (;p)　b (;b)　t (;t)　d (;d)　ʈ (;ti / ;tc)　ɖ (;dc / ;dt)　c (;c)　ɟ (;jt)　k (;k)　ɡ (;gi)　q (;q)　ɢ (;;gi)　ʔ (;jfy / ;jy / ;jfk)
 
 - 鼻音：m (;m)　ɱ (;mj)　n (;n)　ɳ (;nc)　ɲ (;nj)　ŋ (;nj)　ɴ (;;ni)
 
-- 顫音：ʙ (;;bi)　r (;r)　ʀ (;;ri/;;ihr)
+- 顫音：ʙ (;;bi)　r (;r)　ʀ (;;ri / ;;ihr)
 
-- 閃音：ⱱ (;vr)　ɾ (;jq/;lfk)　ɽ (;rc)
+- 閃音：ⱱ (;vr)　ɾ (;jq / ;lfk)　ɽ (;rc)
 
-- 擦音：ɸ (;fi)　β (bi)　f (;f)　v (;v)　θ (;qi)　ð (;dfx/;dx/;dt)　s (;s)　z (z)　ʃ (;sf)　ʒ (;zf)　ʂ (;sc)　ʐ (;zc)　ç (;cj)　ʝ (;jg/;ig)　x (;x)　ɣ (;vo/;no/;go)　χ (;xi)　ʁ (;;rk)　ħ (;ht)　ʕ (;cfy/;cy/;cfk)　h (;h)　ɦ (;hr)
+- 擦音：ɸ (;fi)　β (bi)　f (;f)　v (;v)　θ (;qi)　ð (;dfx / ;dx / ;dt)　s (;s)　z (z)　ʃ (;sf)　ʒ (;zf)　ʂ (;sc)　ʐ (;zc)　ç (;cj)　ʝ (;jg / ;ig)　x (;x)　ɣ (;vo / ;no / ;go)　χ (;xi)　ʁ (;;rk)　ħ (;ht)　ʕ (;cfy / ;cy / ;cfk)　h (;h)　ɦ (;hr)
 
-- 邊擦音：ɬ (;lk/;ik)　ɮ (;lzf/;lhzf)
+- 邊擦音：ɬ (;lk / ;ik)　ɮ (;lzf / ;lhzf)
 
-- 近音：ʋ (;vf/;yi)　ɹ (;rq)　ɻ (;rrq/;rqc)　j (;j)　ɰ (;xf/;mqy/;mrq/;wy/;whi/;uhu)
+- 近音：ʋ (;vf / ;yi)　ɹ (;rq)　ɻ (;rrq / ;rqc)　j (;j)　ɰ (;xf / ;mqy / ;mrq / ;wy / ;whi / ;uhu)
 
 - 邊近音：l (;l)　ɭ (;lc)　ʎ (;yq)　ʟ (;;li)
 
 
-## 『 子音/輔音（非肺部氣流音） 』
+## 『 子音 / 輔音（非肺部氣流音） 』
 
-- 搭嘴音：ʘ (;oma)　ǀ (;iw)　ǃ (;ifk)　ǂ (;itt/;ltt/;nfq/;iwtt/;tft)　ǁ (;iwiw)
+- 搭嘴音：ʘ (;oma)　ǀ (;iw)　ǃ (;ifk)　ǂ (;itt / ;ltt / ;nfq / ;iwtt / ;tft)　ǁ (;iwiw)
 
-- 內爆音：ɓ (;br/;gq)　ɗ (;dr)　ʄ (;sft/;sftt)　ɠ (;gr)　ʛ (;;gr)
+- 內爆音：ɓ (;br / ;gq)　ɗ (;dr)　ʄ (;sft / ;sftt)　ɠ (;gr)　ʛ (;;gr)
 
 - 擠喉音：ʼ (;dw)　pʼ (p) (;dw)　tʼ (t) (;dw)　kʼ (k) (;dw)　sʼ (s) (;dw)
 
 
 ## 『 其他記號 』
 
-　ʍ (;wk)　w (;w)　ɥ (;hq/;ui)　ʜ (;;hi)
+　ʍ (;wk)　w (;w)　ɥ (;hq / ;ui)　ʜ (;;hi)
 
-　ʢ (;cfyt/;cyt/;cfkt/;cftf)　ʡ (;jfyt/;jyt/;jfkt/;jftf)
+　ʢ (;cfyt / ;cyt / ;cfkt / ;cftf)　ʡ (;jfyt / ;jyt / ;jfkt / ;jftf)
 
-　ɕ (;cg/;gfq)　ʑ (;zg)　ɻ (;rrq/;rqc)　ɧ (;hrj/;hjr/;jqg/;hrc/;hcr)
+　ɕ (;cg / ;gfq)　ʑ (;zg)　ɻ (;rrq / ;rqc)　ɧ (;hrj / ;hjr / ;jqg / ;hrc / ;hcr)
 
 　ts͜ (t) (s) (';du)　kp͡ (k) (p) (';m)
 
@@ -60,32 +60,32 @@
 
 　◌̥ (';do) ˳ (;dow)　◌̬ (';dv) ˬ (;dvw)　◌ͪ (';hh) ʰ (;hh)
 
-　◌̹ (';dj) ˒ (;djw/;jw)　◌̜ (';dc) ˓ (;dcw/;cw)　◌̟ (';dt) ˖ (;dtw/;tw/;dtfh)
+　◌̹ (';dj) ˒ (;djw / ;jw)　◌̜ (';dc) ˓ (;dcw / ;cw)　◌̟ (';dt) ˖ (;dtw / ;tw / ;dtfh)
 
-　◌̠ (';de) ˍ (;dew) ˗ (;dew/;ew)　◌̈ (';b) ¨ (;bw)　◌̽ (';x) ˟ (;xw) ˣ (;xh)
+　◌̠ (';de) ˍ (;dew) ˗ (;dew / ;ew)　◌̈ (';b) ¨ (;bw)　◌̽ (';x) ˟ (;xw) ˣ (;xh)
 
-　◌̩ (';dp) ˌ (;dpw/;yw/;dyw)　◌̯ (';dm)
+　◌̩ (';dp) ˌ (;dpw / ;yw / ;dyw)　◌̯ (';dm)
 
-　˞ (;kw) ɚ (;eqk) ɝ (;zk/;zr) a˞ (a) (;kw)
+　˞ (;kw) ɚ (;eqk) ɝ (;zk / ;zr) a˞ (a) (;kw)
 
 　◌̤ (';db)　◌̰ (';ds) ˷ (;dsw)　◌̼ (';dy)
 
-　ʷ (;wh)　ʲ (;jh)　ˠ (;voh/;noh/;goh)　ˤ (;cfyh/;cfkh/;cyh)
+　ʷ (;wh)　ʲ (;jh)　ˠ (;voh / ;noh / ;goh)　ˤ (;cfyh / ;cfkh / ;cyh)
 
 　◌̪ (';dr)　◌̺ (';drk)　◌̻ (';do)　◌̃ (';s) ˜ (;sw)　ⁿ (;nh)　ˡ (;lh)
 
-　◌̚ (';gk) ˺ (;gwk)　◌̴ (';z) ~ (;sw) ɫ (;lz/;iz) ᵶ (;zz)
+　◌̚ (';gk) ˺ (;gwk)　◌̴ (';z) ~ (;sw) ɫ (;lz / ;iz) ᵶ (;zz)
 
-　◌̝ (';dtk) ˔ (;dtwk/;twk)　◌̞ (';dt) ˕ (;dtw/;tw)　◌̘ (';dtq)　◌̙ (';dtq)
+　◌̝ (';dtk) ˔ (;dtwk / ;twk)　◌̞ (';dt) ˕ (;dtw / ;tw)　◌̘ (';dtq)　◌̙ (';dtq)
 
 
 ## 『 超音段成分 』
 
-　ˈ (;pw)　ˌ (;dpw/;yw/;dyw)　ː (;dfkdf/;dkd/;dfdf/;dfhdf)　ˑ (;dfk/;dk/;df)
+　ˈ (;pw)　ˌ (;dpw / ;yw / ;dyw)　ː (;dfkdf / ;dkd / ;dfdf / ;dfhdf)　ˑ (;dfk / ;dk / ;df)
 
-　◌̆ (';u) ˘ (;uw/;ufh)　| (;iw)　‖ (;iwiw)
+　◌̆ (';u) ˘ (;uw / ;ufh)　| (;iw)　‖ (;iwiw)
 
-　. (;daw) · (;aw)　‿ (;duw) ◌͜ (';du/';dufh)
+　. (;daw) · (;aw)　‿ (;duw) ◌͜ (';du / ';dufh)
 
 
 ## 『 音階和音調 』
@@ -103,5 +103,5 @@
 
 ## 資料來源
 
-- https://www.internationalphoneticassociation.org/IPAcharts/IPA_chart_orig/pdfs/IPA_Kiel_2020_full.pdf
+- https: /  / www.internationalphoneticassociation.org / IPAcharts / IPA_chart_orig / pdfs / IPA_Kiel_2020_full.pdf
 
