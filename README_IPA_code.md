@@ -6,54 +6,54 @@
 
 
 ## 『 母音/元音 』
-｜ 前 | 央 | 後 ｜
-|:----:|:-------:|----|----|----|
-| 閉　 ｜ i (;i)　y (;y) | ɨ (;it)　ʉ (;ut) | ɯ (;mq)　u (;u) ｜
-| 次閉 ｜ ɪ (;;ii)　ʏ (;;yi) | 　 | ʊ (;wk) ｜
-| 半閉 ｜ e (;e)　ø (;ox) | ɘ (;ek) ɵ (;qi) | ɤ (;vo/;yo/;oy)　o (;o) ｜
-| 中　 ｜ 　 | ə (;eq) | 　 ｜
-| 半開 ｜ ɛ (;ei)　œ (;ohe) | ɜ (;zi)　ɞ (;bf) | ʌ (;li/;vk)　ɔ (;jf/;ck) ｜
-| 次開 ｜ æ (;ahe) | ɐ (;aq) | 　 ｜
-| 開　 ｜ a (;a)　ɶ (;;ohe) | 　 | ɑ (;ai)　ɒ (;aq) ｜
+| 　 | 前 | 央 | 後 |
+|:-|:-|:-|:-|
+| 閉　 | i (;i)　y (;y) | ɨ (;it)　ʉ (;ut) | ɯ (;mq)　u (;u) |
+| 次閉 | ɪ (;;ii)　ʏ (;;yi) | 　 | ʊ (;wk) |
+| 半閉 | e (;e)　ø (;ox) | ɘ (;ek) ɵ (;qi) | ɤ (;vo/;yo/;oy)　o (;o) |
+| 中　 | 　 | ə (;eq) | 　 |
+| 半開 | ɛ (;ei)　œ (;ohe) | ɜ (;zi)　ɞ (;bf) | ʌ (;li/;vk)　ɔ (;jf/;ck) |
+| 次開 | æ (;ahe) | ɐ (;aq) | 　 |
+| 開　 | a (;a)　ɶ (;;ohe) | 　 | ɑ (;ai)　ɒ (;aq) |
 
 
 ## 『 子音/輔音（肺部氣流音） 』
 
-塞音：p (;p)　b (;b)　t (;t)　d (;d)　ʈ (;ti/;tc)　ɖ (;dc/;dt)　c (;c)　ɟ (;jt)　k (;k)　ɡ (;gi)　q (;q)　ɢ (;;gi)　ʔ (;jfy/;jy/;jfk)
+- 塞音：p (;p)　b (;b)　t (;t)　d (;d)　ʈ (;ti/;tc)　ɖ (;dc/;dt)　c (;c)　ɟ (;jt)　k (;k)　ɡ (;gi)　q (;q)　ɢ (;;gi)　ʔ (;jfy/;jy/;jfk)
 
-鼻音：m (;m)　ɱ (;mj)　n (;n)　ɳ (;nc)　ɲ (;nj)　ŋ (;nj)　ɴ (;;ni)
+- 鼻音：m (;m)　ɱ (;mj)　n (;n)　ɳ (;nc)　ɲ (;nj)　ŋ (;nj)　ɴ (;;ni)
 
-顫音：ʙ (;;bi)　r (;r)　ʀ (;;ri/;;ihr)
+- 顫音：ʙ (;;bi)　r (;r)　ʀ (;;ri/;;ihr)
 
-閃音：ⱱ (;vr)　ɾ (;jq/;lfk)　ɽ (;rc)
+- 閃音：ⱱ (;vr)　ɾ (;jq/;lfk)　ɽ (;rc)
 
-擦音：ɸ (;fi)　β (bi)　f (;f)　v (;v)　θ (;qi)　ð (;dfx/;dx/;dt)　s (;s)　z (z)　ʃ (;sf)　ʒ (;zf)　ʂ (;sc)　ʐ (;zc)　ç (;cj)　ʝ (;jg/;ig)　x (;x)　ɣ (;vo/;no/;go)　χ (;xi)　ʁ (;;rk)　ħ (;ht)　ʕ (;cfy/;cy/;cfk)　h (;h)　ɦ (;hr)
+- 擦音：ɸ (;fi)　β (bi)　f (;f)　v (;v)　θ (;qi)　ð (;dfx/;dx/;dt)　s (;s)　z (z)　ʃ (;sf)　ʒ (;zf)　ʂ (;sc)　ʐ (;zc)　ç (;cj)　ʝ (;jg/;ig)　x (;x)　ɣ (;vo/;no/;go)　χ (;xi)　ʁ (;;rk)　ħ (;ht)　ʕ (;cfy/;cy/;cfk)　h (;h)　ɦ (;hr)
 
-邊擦音：ɬ (;lk/;ik)　ɮ (;lzf/;lhzf)
+- 邊擦音：ɬ (;lk/;ik)　ɮ (;lzf/;lhzf)
 
-近音：ʋ (;vf/;yi)　ɹ (;rq)　ɻ (;rrq/;rqc)　j (;j)　ɰ (;xf/;mqy/;mrq/;wy/;whi/;uhu)
+- 近音：ʋ (;vf/;yi)　ɹ (;rq)　ɻ (;rrq/;rqc)　j (;j)　ɰ (;xf/;mqy/;mrq/;wy/;whi/;uhu)
 
-邊近音：l (;l)　ɭ (;lc)　ʎ (;yq)　ʟ (;;li)
+- 邊近音：l (;l)　ɭ (;lc)　ʎ (;yq)　ʟ (;;li)
 
 
 ## 『 子音/輔音（非肺部氣流音） 』
 
-搭嘴音：ʘ (;oma)　ǀ (;iw)　ǃ (;ifk)　ǂ (;itt/;ltt/;nfq/;iwtt/;tft)　ǁ (;iwiw)
+- 搭嘴音：ʘ (;oma)　ǀ (;iw)　ǃ (;ifk)　ǂ (;itt/;ltt/;nfq/;iwtt/;tft)　ǁ (;iwiw)
 
-內爆音：ɓ (;br/;gq)　ɗ (;dr)　ʄ (;sft/;sftt)　ɠ (;gr)　ʛ (;;gr)
+- 內爆音：ɓ (;br/;gq)　ɗ (;dr)　ʄ (;sft/;sftt)　ɠ (;gr)　ʛ (;;gr)
 
-擠喉音：ʼ (;dw)　pʼ (p) (;dw)　tʼ (t) (;dw)　kʼ (k) (;dw)　sʼ (s) (;dw)
+- 擠喉音：ʼ (;dw)　pʼ (p) (;dw)　tʼ (t) (;dw)　kʼ (k) (;dw)　sʼ (s) (;dw)
 
 
 ## 『 其他記號 』
 
-ʍ (;wk)　w (;w)　ɥ (;hq/;ui)　ʜ (;;hi)
+　ʍ (;wk)　w (;w)　ɥ (;hq/;ui)　ʜ (;;hi)
 
-ʢ (;cfyt/;cyt/;cfkt/;cftf)　ʡ (;jfyt/;jyt/;jfkt/;jftf)
+　ʢ (;cfyt/;cyt/;cfkt/;cftf)　ʡ (;jfyt/;jyt/;jfkt/;jftf)
 
-ɕ (;cg/;gfq)　ʑ (;zg)　ɻ (;rrq/;rqc)　ɧ (;hrj/;hjr/;jqg/;hrc/;hcr)
+　ɕ (;cg/;gfq)　ʑ (;zg)　ɻ (;rrq/;rqc)　ɧ (;hrj/;hjr/;jqg/;hrc/;hcr)
 
-ts͜ (t) (s) (';du)　kp͡ (k) (p) (';m)
+　ts͜ (t) (s) (';du)　kp͡ (k) (p) (';m)
 
 
 ## 『 變音符號 』
