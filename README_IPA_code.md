@@ -33,7 +33,7 @@
 
 - 閃音：ⱱ ( ;vr )　ɾ ( ;jq / ;lfk )　ɽ ( ;rc )
 
-- 擦音：ɸ ( ;fi )　β ( bi )　f ( f / ;f )　v ( v / ;v )　θ ( ;qi )　ð ( ;dfx / ;dx / ;dt )　s ( s / ;s )　z ( z / ;z )　ʃ ( ;sf )　ʒ ( ;zf )　ʂ ( ;sc )　ʐ ( ;zc )　ç ( ;cj )　ʝ ( ;jg / ;ig )　x ( x / ;x )　ɣ ( ;vo / ;no / ;go )　χ ( ;xi )　ʁ ( ;;rk )　ħ ( ;ht )　ʕ ( ;cfy / ;cy / ;cfk )　h ( h / ;h )　ɦ ( ;hr )
+- 擦音：ɸ ( ;fi )　β ( ;bi )　f ( f / ;f )　v ( v / ;v )　θ ( ;qi )　ð ( ;dfx / ;dx / ;dt )　s ( s / ;s )　z ( z / ;z )　ʃ ( ;sf )　ʒ ( ;zf )　ʂ ( ;sc )　ʐ ( ;zc )　ç ( ;cj )　ʝ ( ;jg / ;ig )　x ( x / ;x )　ɣ ( ;vo / ;no / ;go )　χ ( ;xi )　ʁ ( ;;rk )　ħ ( ;ht )　ʕ ( ;cfy / ;cy / ;cfk )　h ( h / ;h )　ɦ ( ;hr )
 
 - 邊擦音：ɬ ( ;lk / ;ik )　ɮ ( ;lzf / ;lhzf )
 
@@ -59,7 +59,7 @@
 
 　ɕ ( ;cg / ;gfq )　ʑ ( ;zg )　ɻ ( ;rrq / ;rqc )　ɧ ( ;hrj / ;hjr / ;jqg / ;hrc / ;hcr )
 
-　ts͜ ( t / ;t )( s / ;s )( ';du )　kp͡ ( k / ;k )( p /;p )( ';m )
+　ts͜ ( t / ;t )( s / ;s )( ';du )　kp͡ ( k / ;k )( p / ;p )( ';m )
 
 
 ## 變音符號
