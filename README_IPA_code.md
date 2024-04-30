@@ -107,7 +107,7 @@
 　ꜜ ( ;lwk )　ꜛ ( ;lw )　↗ ( ;lwq )　↘ ( ;lwq )
 
 
-## 資料來源
+## 參考資料
 
 - https://www.internationalphoneticassociation.org/IPAcharts/IPA_chart_orig/pdfs/IPA_Kiel_2020_full.pdf
 
