@@ -1,11 +1,17 @@
 # 拉丁 洋蔥形碼 IPA國際音標 編碼
 
 - 「調出符」以 en_wel.schema.yaml ✪EuropeLetter-Onion✪ 為範例，其他方案編碼一樣，但「調出符」會不同。
-- 前為 IPA 字符， ( … ) 內為編碼。
--  ( ;; )→ 大寫　 ( '; )→ 組合附加符號
+
+- 開頭「 ; 」為「基本調出符」
+
+- 開頭「 ;; 」為「大寫調出符」
+
+- 開頭「 ' 」「 ; 」為「組合字符 “ Combining Diacritical Marks”調出符」
+
+- 以下前為 IPA 字符， ( … ) 內為編碼。
 
 
-## 『 母音 / 元音 』
+## 母音 / 元音
 | 　 | 前 | 中央 | 後 |
 |:-|:-|:-|:-|
 | 閉　 | i ( i / ;i )　y ( y / ;y ) | ɨ ( ;it )　ʉ ( ;ut ) | ɯ ( ;mq )　u ( u / ;u ) |
@@ -17,7 +23,7 @@
 | 開　 | a ( a / ;a )　ɶ ( ;;ohe ) | 　 | ɑ ( ;ai )　ɒ ( ;aq ) |
 
 
-## 『 子音 / 輔音（肺部氣流音） 』
+## 子音 / 輔音（肺部氣流音）
 
 - 塞音：p ( p / ;p )　b ( b / ;b )　t ( t / ;t )　d ( d / ;d )　ʈ ( ;ti / ;tc )　ɖ ( ;dc / ;dt )　c ( c / ;c )　ɟ ( ;jt )　k ( k / ;k )　ɡ ( ;gi )　q ( q / ;q )　ɢ ( ;;gi )　ʔ ( ;jfy / ;jy / ;jfk )
 
@@ -36,7 +42,7 @@
 - 邊近音：l ( l / ;l )　ɭ ( ;lc )　ʎ ( ;yq )　ʟ ( ;;li )
 
 
-## 『 子音 / 輔音（非肺部氣流音） 』
+## 子音 / 輔音（非肺部氣流音）
 
 - 搭嘴音：ʘ ( ;oma )　ǀ ( ;iw )　ǃ ( ;ifk )　ǂ ( ;itt / ;ltt / ;nfq / ;iwtt / ;tft )　ǁ ( ;iwiw )
 
@@ -45,7 +51,7 @@
 - 擠喉音：ʼ ( ;dw )　pʼ ( p / ;p )( ;dw )　tʼ ( t / ;t )( ;dw )　kʼ ( k / ;k )( ;dw )　sʼ ( s / ;s )( ;dw )
 
 
-## 『 其他記號 』
+## 其他記號
 
 　ʍ ( ;wk )　w ( w / ;w )　ɥ ( ;hq / ;ui )　ʜ ( ;;hi )
 
@@ -56,7 +62,7 @@
 　ts͜ ( t / ;t )( s / ;s )( ';du )　kp͡ ( k / ;k )( p /;p )( ';m )
 
 
-## 『 變音符號 』
+## 變音符號
 
 　◌̥ ( ';do )　˳ ( ;dow )　◌̬ ( ';dv )　ˬ ( ;dvw )　◌ͪ ( ';hh )　ʰ ( ;hh )
 
@@ -79,7 +85,7 @@
 　◌̝ ( ';dtk )　˔ ( ;dtwk / ;twk )　◌̞ ( ';dt )　˕ ( ;dtw / ;tw )　◌̘ ( ';dtq )　◌̙ ( ';dtq )
 
 
-## 『 超音段成分 』
+## 超音段成分
 
 　ˈ ( ;pw )　ˌ ( ;dpw / ;yw / ;dyw )　ː ( ;dfkdf / ;dkd / ;dfdf / ;dfhdf )　ˑ ( ;dfk / ;dk / ;df )
 
@@ -88,7 +94,7 @@
 　. ( ;daw )　· ( ;aw )　‿ ( ;duw )　◌͜ ( ';du / ';dufh )
 
 
-## 『 音階和音調 』
+## 音階和音調
 
 　◌̋ ( ';pp )　˝ ( ;pwpw )　◌́ ( ';p )　ˊ ( ;pw )　◌̄ ( ';e )　ˉ ( ;ew )
 
@@ -101,7 +107,7 @@
 　ꜜ ( ;lwk )　ꜛ ( ;lw )　↗ ( ;lwq )　↘ ( ;lwq )
 
 
-## 『 資料來源 』
+## 資料來源
 
 - https://www.internationalphoneticassociation.org/IPAcharts/IPA_chart_orig/pdfs/IPA_Kiel_2020_full.pdf
 
