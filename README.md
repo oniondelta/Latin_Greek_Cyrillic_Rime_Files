@@ -31,9 +31,13 @@
 
 ## 詳細解說 (Description)
 
-- https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/blob/main/README_introduction.md
+- [介紹](https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/blob/main/README_introduction.md)
 
-- https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/blob/main/README_explanation.md
+- [範例說明](https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/blob/main/README_explanation.md)
+
+- [IPA 音標編碼](https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/blob/main/README_IPA_code.md)
+
+- [KK / DJ / IPA 音標編碼](https://github.com/oniondelta/Latin_Greek_Cyrillic_Rime_Files/blob/main/README_IPA_code.md)
 
 ## 備註
 
