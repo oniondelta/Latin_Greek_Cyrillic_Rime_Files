@@ -88,7 +88,9 @@
 
 > 奇摩字典 KK 和 DJ 次重音用〔希臘小寫數字標記〕字符： [  ͵  ] ，須用希臘掛接方案，( 啟始鍵 )+( dpw )輸入。
 
+> 承上，於 en_wel.schema.yaml ✪EuropeLetter-Onion✪ 方案，編碼為 ( [dpw )
+
 
 ## 資料來源
 
-- https: /  / zh.wikipedia.org / wiki / KK%E9%9F%B3%E6%A8%99
+- https://zh.wikipedia.org/wiki/KK%E9%9F%B3%E6%A8%99
