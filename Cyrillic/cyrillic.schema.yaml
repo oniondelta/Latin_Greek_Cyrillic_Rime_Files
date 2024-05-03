@@ -4,7 +4,7 @@
 schema:
   schema_id: cyrillic
   name: ❃西里爾字母❃
-  version: "202404"
+  version: "202405"
   author:
     - 『洋蔥』
   description: |
@@ -53,7 +53,7 @@ speller:
 
 translator:
   dictionary: cyrillic.extended
-  enable_charset_filter: false
+  # enable_charset_filter: false
   enable_completion: false
   enable_user_dict: true
   preedit_format:

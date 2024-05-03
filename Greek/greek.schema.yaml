@@ -4,7 +4,7 @@
 schema:
   schema_id: greek
   name: ❃希臘字母❃
-  version: "202404"
+  version: "202405"
   author:
     - 『洋蔥』
   description: |
@@ -52,7 +52,7 @@ speller:
 
 translator:
   dictionary: greek.extended
-  enable_charset_filter: false
+  # enable_charset_filter: false
   enable_completion: false
   enable_user_dict: true
   preedit_format:
