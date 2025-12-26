@@ -4,7 +4,7 @@
 # 『洋蔥』製作
 ---
 name: en_wel
-version: "202210"
+version: "202512"
 sort: original #by_weight
 use_preset_vocabulary: false
 import_tables:
@@ -2899,6 +2899,10 @@ $	;sy
 ²	;rfh
 ³	;zfh
 ### Superscripts and Subscripts結束 ###
+###@ 補充奇摩字典音標有的符號開始 ###
+###下方為希臘文，但在奇摩字典KK和DJ音標中次重音為該符，故收錄
+͵	;dpw
+### 補充奇摩字典音標有的符號結束 ###
 #####@@@ 英文全形字庫 #####
 ### 新增英文字母全形開始 ###
 ############
